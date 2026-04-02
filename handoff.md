@@ -1,11 +1,11 @@
 # Handoff
 
 ## 已完成
-- 新建 `STARRED_REPOS_ATLAS.md`，按 `Inbox / AI / AI-Harness / AI-Tools / Developer-Tools / Infrastructure / Visualisation / Security / GameDev / Learning` 分类整理当前 48 个 GitHub stars。
+- 新建 `README.md`，按 `Inbox / AI / AI-Harness / AI-Tools / Developer-Tools / Infrastructure / Visualisation / Security / GameDev / Learning` 分类整理当前 48 个 GitHub stars。
 - 将信息不足的仓库先放入 `Inbox`，避免误分类。
 - 已删除 `starred.txt` 和 `starred.csv` 两个中间导出文件。
 - 已在当前目录执行 `git init`。
-- 已用临时脚本校验：Atlas 文件存在、导出文件已删除、git 仓库已初始化、Atlas 中仓库数量与当前 stars 完全一致（48/48）。
+- 已用临时脚本校验：`README.md` 存在、导出文件已删除、git 仓库已初始化、文档中仓库数量与当前 stars 完全一致（48/48）。
 - 已将仓库推送到 `https://github.com/KaynXu/Kayns-choices`，当前分支为 `main`。
 
 ## 剩余问题
