@@ -6,6 +6,7 @@
 - 已删除 `starred.txt` 和 `starred.csv` 两个中间导出文件。
 - 已在当前目录执行 `git init`。
 - 已用临时脚本校验：Atlas 文件存在、导出文件已删除、git 仓库已初始化、Atlas 中仓库数量与当前 stars 完全一致（48/48）。
+- 已将仓库推送到 `https://github.com/KaynXu/Kayns-choices`，当前分支为 `main`。
 
 ## 剩余问题
 - `Nearcyan/vibecraft`、`operoncao123/agent-foreman`、`chenglou/pretext` 公开描述不足，后续需要人工看 README 再决定最终分类。
@@ -14,4 +15,4 @@
 ## 下一步方向
 1. 手动 review `Inbox` 里的 3 个仓库，再决定最终分类。
 2. 以后每次新增 star 时，顺手补一句 `Why starred`，这个 Atlas 会越来越有用。
-3. 如果需要同步到 GitHub，可以继续做首个 commit 并推到远端。
+3. 如果要继续维护，可以补 `.gitignore` 以忽略 `.DS_Store` 这类本地文件。
