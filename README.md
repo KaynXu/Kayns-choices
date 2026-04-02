@@ -68,7 +68,6 @@
 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | 港大的把一切都变成mcp的工具 | cli, agent-native, tooling |
 | [wkentaro/labelme](https://github.com/wkentaro/labelme) | 图像标注工具 | annotation, dataset, cv |
 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | 清华的AI互动RAG课堂 | education, multi-agent, classroom |
-| [AnMnv/latex-skill-icons](https://github.com/AnMnv/latex-skill-icons) | LaTeX 里的 skill 图标资源 | latex, icons, assets |
 | [freestylefly/openclaw-wechat](https://github.com/freestylefly/openclaw-wechat) | 让 OpenClaw 稳定连接个人微信 | openclaw, wechat, integration |
 | [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | 面向小红书的 MCP 接口 | mcp, xiaohongshu, integration |
 | [JefferyHcool/BiliNote](https://github.com/JefferyHcool/BiliNote) | AI 视频笔记生成工具 | notes, video, ai |
@@ -143,6 +142,7 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [AnMnv/latex-skill-icons](https://github.com/AnMnv/latex-skill-icons) | LaTeX 里的 skill 图标资源 | latex, icons, assets |
 | [lucide-icons/lucide](https://github.com/lucide-icons/lucide) | 开源图标库, 很简洁 | icons, frontend, design-system |
 | [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks) | 经济学人, 纽约客外刊原文 | english, ebooks, reading |
 | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 人教教材 | textbooks, education, pdf |
