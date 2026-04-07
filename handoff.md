@@ -15,13 +15,16 @@
 - 本地端到端验证已跑通：同步脚本发现 README 漏掉的 `TakWolf/ark-pixel-font`，并已自动补进 `Inbox`。
 - `Sync Stars` workflow 已推送到远端并手动触发验证成功。
 - 已手动调整 `README.md` 分类：将 `AnMnv/latex-skill-icons` 从 `AI-Tools` 挪到 `Assests and Resources`。
+- 已完成 `README.md` 的 Inbox 全量分流：把 13 个已补完描述的仓库全部迁移到对应正式分类，并清空 Inbox。
+- 已调整分类口径并更新 `README.md`：将 `microsoft/VibeVoice` 从 `AI-LLM/Agents` 挪到 `AI-Tools`，保留 `chenglou/pretext` 在 `Developer-Tools`。
+- 已统一 `README.md` 全文为英文标点，并处理英文标点后接中文时的空格。
 
 ## 剩余问题
-- `Nearcyan/vibecraft`、`operoncao123/agent-foreman`、`chenglou/pretext` 公开描述不足，后续需要人工看 README 再决定最终分类。
 - 各项 `Tags` 目前基于仓库描述推断，后续可以按真实使用体验继续微调。
 - `README.md` 的分组命名和拼写仍不完全统一，后续可以继续整理。
+- `Infrastructure` 的边界目前偏向自建, 运维, 远程连接, 平台底座类项目；若后续要把底层渲染/排版引擎也纳入, 需要先重定义分组口径。
 
 ## 下一步方向
-1. 手动 review `Inbox` 里的 3 个仓库，再决定最终分类。
-2. 如果要继续维护，可以进一步统一各分组名称和拼写，比如 `Assests` 是否改为 `Assets`。
-3. 继续按你的习惯微调分类；新的 star 会先自动进入 `Inbox`。
+1. 如果要继续维护，可以进一步统一各分组名称和拼写，比如 `Assests` 是否改为 `Assets`。
+2. 继续按你的习惯微调分类；新的 star 会先自动进入 `Inbox`。
+3. 后续如语音类仓库增多，可考虑新增独立分组（如 `AI-Speech`）提高检索效率。
