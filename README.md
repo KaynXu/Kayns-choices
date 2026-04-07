@@ -21,6 +21,8 @@
 
 | Repo | One-liner |
 |---|---|
+| [lsd-rs/lsd](https://github.com/lsd-rs/lsd) | The next gen ls command |
+| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration |
 | _Empty_ | 已完成当前 Inbox 分类, 等待新 star 自动进入 |
 
 [Back to top](#starred-repos-atlas)
