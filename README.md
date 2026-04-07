@@ -53,7 +53,7 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
-| [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | 韩国量化一个哥们开发的 Agent Harness for Codex | codex, harness, workflow |
+| [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | 韩国量化一个哥们开发的 Agent Harness for Codex p.s: 韩国量化男你害我害得很惨, 我上网课你烧我一个亿多token... 别用, 避雷 | codex, harness, workflow |
 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | 没啥说的, CC 新时代的 Coding Agent | coding-agent, cli, workflow |
 | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | 面向团队的 Claude Code 多 agent 编排 | claude-code, orchestration, teamwork |
 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | Claude Code 工作流与实践库 | agents, prompts, workflow |
