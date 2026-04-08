@@ -21,6 +21,7 @@
 
 | Repo | One-liner |
 |---|---|
+| [BobH233/NeuroMark](https://github.com/BobH233/NeuroMark) | 一个基于 Electron + Vue + OpenAI 的本地优先 AI 自动阅卷桌面工作台，支持答卷扫描、参考答案生成、批量批阅与结果导出。 |
 | [lsd-rs/lsd](https://github.com/lsd-rs/lsd) | The next gen ls command |
 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration |
 | _Empty_ | 已完成当前 Inbox 分类, 等待新 star 自动进入 |
