@@ -21,6 +21,10 @@
 
 | Repo | One-liner |
 |---|---|
+| [farzaa/clicky](https://github.com/farzaa/clicky) | 待补充 |
+| [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) | Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS. |
+| [radix-ui/website](https://github.com/radix-ui/website) | Website and documentation for Radix. |
+| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code. |
 | [outerbase/studio](https://github.com/outerbase/studio) | A lightweight Database GUI in your browser. It supports connecting to Postgres, MySQL, and SQLite. |
 | [BobH233/NeuroMark](https://github.com/BobH233/NeuroMark) | 一个基于 Electron + Vue + OpenAI 的本地优先 AI 自动阅卷桌面工作台，支持答卷扫描、参考答案生成、批量批阅与结果导出。 |
 | [lsd-rs/lsd](https://github.com/lsd-rs/lsd) | The next gen ls command |
