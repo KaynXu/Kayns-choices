@@ -21,6 +21,15 @@
 
 | Repo | One-liner |
 |---|---|
+| [zhuzccn-rgb/AI-examiner](https://github.com/zhuzccn-rgb/AI-examiner) | A cross platform AI exam paper maker, now come with Alevel papers. |
+| [enjoyousedu25/edexcel-essay-marker](https://github.com/enjoyousedu25/edexcel-essay-marker) | 待补充 |
+| [git25math/25maths-examhub](https://github.com/git25math/25maths-examhub) | IGCSE Exam Support Hub |
+| [Grade-Boundaries/GradeBoundaries-dev](https://github.com/Grade-Boundaries/GradeBoundaries-dev) | This little site was built by two A‑Level students as a fun project to visualise and compare A‑Level grade boundaries. We’re both studying A‑Levels ourselves, so we know how useful it can be to see trends across exam boards. Enjoy! |
+| [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. |
+| [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you |
+| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | "DeepTutor: Agent-Native Personalized Learning Assistant" |
+| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
 | [farzaa/clicky](https://github.com/farzaa/clicky) | 待补充 |
 | [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) | Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS. |
 | [radix-ui/website](https://github.com/radix-ui/website) | Website and documentation for Radix. |
