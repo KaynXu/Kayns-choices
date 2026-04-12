@@ -21,6 +21,7 @@
 
 | Repo | One-liner |
 |---|---|
+| [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) | 💅🏻 ⚒ A collection of awesome design systems |
 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. |
 | [logto-io/logto](https://github.com/logto-io/logto) | 🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC. |
 | [zhuzccn-rgb/AI-examiner](https://github.com/zhuzccn-rgb/AI-examiner) | A cross platform AI exam paper maker, now come with Alevel papers. |
