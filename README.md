@@ -21,6 +21,7 @@
 
 | Repo | One-liner |
 |---|---|
+| [karpathy/LLM101n](https://github.com/karpathy/LLM101n) | LLM101n: Let's build a Storyteller |
 | [jnsahaj/tweakcn](https://github.com/jnsahaj/tweakcn) | A visual no-code theme editor for shadcn/ui components |
 | [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits) | An open source collection of animated, interactive & fully customizable React components for building memorable websites. |
 | [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) | 💅🏻 ⚒ A collection of awesome design systems |
