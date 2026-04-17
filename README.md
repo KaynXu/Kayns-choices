@@ -21,6 +21,7 @@
 
 | Repo | One-liner |
 |---|---|
+| [opencroc/Hermes-Office-UI](https://github.com/opencroc/Hermes-Office-UI) | OpenClaw / Hermes Agents showed how agents think — Cube Pets Office shows how they execute. |
 | [edu-ai-builders/math-viz-kit](https://github.com/edu-ai-builders/math-viz-kit) | 开箱即用的数学可视化工具集，覆盖小学至大学 123 个核心知识点，含 AI 生成 skill - A ready-to-use kit of 123 AI-generated interactive math visualizations, from elementary to college |
 | [karpathy/LLM101n](https://github.com/karpathy/LLM101n) | LLM101n: Let's build a Storyteller |
 | [jnsahaj/tweakcn](https://github.com/jnsahaj/tweakcn) | A visual no-code theme editor for shadcn/ui components |
