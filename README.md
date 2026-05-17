@@ -21,6 +21,8 @@
 
 | Repo | One-liner |
 |---|---|
+| [Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization](https://github.com/Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization) | ”数学不难“  之  《线性代数不难》上下册，66话题完册；欢迎批评指正 |
+| [Visualize-ML/Book1_Python-For-Beginners](https://github.com/Visualize-ML/Book1_Python-For-Beginners) | Book_1_《编程不难》 - 鸢尾花书：从加减乘除到机器学习；请多多批评指正！ |
 | [tuya/TuyaOpen](https://github.com/tuya/TuyaOpen) | Next-gen AI+IoT framework for T2/T3/T5AI/ESP32/and more – Fast IoT and AI Agent hardware integration |
 | [snarktank/ralph](https://github.com/snarktank/ralph) | Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. |
 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers |
