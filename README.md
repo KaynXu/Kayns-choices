@@ -21,6 +21,7 @@
 
 | Repo | One-liner |
 |---|---|
+| [xiaojilele-glitch/DuanYun](https://github.com/xiaojilele-glitch/DuanYun) | AI Agent OS with visible workflow, real execution, and a 3D office shell. From one sentence to full task lifecycle — plan, run, review, replay. |
 | [xiaojilele-glitch/cube-pets-office](https://github.com/xiaojilele-glitch/cube-pets-office) | AI Agent OS with visible workflow, real execution, and a 3D office shell. From one sentence to full task lifecycle — plan, run, review, replay. |
 | [Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization](https://github.com/Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization) | ”数学不难“  之  《线性代数不难》上下册，66话题完册；欢迎批评指正 |
 | [Visualize-ML/Book1_Python-For-Beginners](https://github.com/Visualize-ML/Book1_Python-For-Beginners) | Book_1_《编程不难》 - 鸢尾花书：从加减乘除到机器学习；请多多批评指正！ |
