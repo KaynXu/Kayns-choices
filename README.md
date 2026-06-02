@@ -21,6 +21,8 @@
 
 | Repo | One-liner |
 |---|---|
+| [blader/humanizer](https://github.com/blader/humanizer) | Claude Code skill that removes signs of AI-generated writing from text |
+| [godotengine/godot](https://github.com/godotengine/godot) | Godot Engine – Multi-platform 2D and 3D game engine |
 | [xiaojilele-glitch/WhyBuddy](https://github.com/xiaojilele-glitch/WhyBuddy) | WhyBuddy — an AI agent crew that questions your product idea and rehearses it before you build. One sentence in → goal clarification, multi-route plan, full spec (requirements/design/tasks), feasibility & architecture out. Decide what's worth building, in minutes. |
 | [xiaojilele-glitch/DuanYun](https://github.com/xiaojilele-glitch/DuanYun) | AI Agent OS with visible workflow, real execution, and a 3D office shell. From one sentence to full task lifecycle — plan, run, review, replay. |
 | [xiaojilele-glitch/cube-pets-office](https://github.com/xiaojilele-glitch/cube-pets-office) | AI Agent OS with visible workflow, real execution, and a 3D office shell. From one sentence to full task lifecycle — plan, run, review, replay. |
