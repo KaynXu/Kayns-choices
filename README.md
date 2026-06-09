@@ -21,6 +21,7 @@
 
 | Repo | One-liner |
 |---|---|
+| [ManimCommunity/manim](https://github.com/ManimCommunity/manim) | A community-maintained Python framework for creating mathematical animations. |
 | [blader/humanizer](https://github.com/blader/humanizer) | Claude Code skill that removes signs of AI-generated writing from text |
 | [godotengine/godot](https://github.com/godotengine/godot) | Godot Engine – Multi-platform 2D and 3D game engine |
 | [xiaojilele-glitch/WhyBuddy](https://github.com/xiaojilele-glitch/WhyBuddy) | WhyBuddy — an AI agent crew that questions your product idea and rehearses it before you build. One sentence in → goal clarification, multi-route plan, full spec (requirements/design/tasks), feasibility & architecture out. Decide what's worth building, in minutes. |
