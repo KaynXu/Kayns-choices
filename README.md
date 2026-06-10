@@ -21,6 +21,7 @@
 
 | Repo | One-liner |
 |---|---|
+| [guofei9987/blind_watermark](https://github.com/guofei9987/blind_watermark) | Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！ |
 | [ManimCommunity/manim](https://github.com/ManimCommunity/manim) | A community-maintained Python framework for creating mathematical animations. |
 | [blader/humanizer](https://github.com/blader/humanizer) | Claude Code skill that removes signs of AI-generated writing from text |
 | [godotengine/godot](https://github.com/godotengine/godot) | Godot Engine – Multi-platform 2D and 3D game engine |
