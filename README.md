@@ -21,6 +21,7 @@
 
 | Repo | One-liner |
 |---|---|
+| [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) | Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API. |
 | [borawong/AiMaMi](https://github.com/borawong/AiMaMi) | 为OpenAI Codex打造的桌面伴侣。 |
 | [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) | 翻墙-科学上网 |
 | [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) | Desktop app to manage markdown knowledge bases |
