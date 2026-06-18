@@ -21,6 +21,7 @@
 
 | Repo | One-liner |
 |---|---|
+| [Wing900/ManimCat](https://github.com/Wing900/ManimCat) | EN: ManimCat: AI-generated math animations from natural language. High-quality Manim rendering with LaTeX support and auto-code fixing. 中: ManimCat：AI 数学动画生成器。支持描述即视频，内置 LaTeX 与代码纠错，让数学动效触手可及。 |
 | [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) | Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API. |
 | [borawong/AiMaMi](https://github.com/borawong/AiMaMi) | 为OpenAI Codex打造的桌面伴侣。 |
 | [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) | 翻墙-科学上网 |
