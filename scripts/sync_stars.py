@@ -8,7 +8,12 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 
-REPO_URL_PATTERN = re.compile(r"https://github.com/([^\)\s]+)")
+REPO_LINK_PATTERN = re.compile(
+    r"\[(?P<label>[^\]]+)\]\("
+    r"https://github.com/(?P<full_name>[^\s\)\"]+)"
+    r'(?:\s+"repo-id:\s*(?P<repo_id>\d+)")?'
+    r"\)"
+)
 DEFAULT_ONE_LINER = "待补充"
 
 
@@ -45,7 +50,35 @@ def fetch_starred_repos(username: str) -> list[dict[str, str]]:
 
 
 def extract_repo_urls(markdown_text: str) -> set[str]:
-    return set(REPO_URL_PATTERN.findall(markdown_text))
+    return {match.group("full_name") for match in REPO_LINK_PATTERN.finditer(markdown_text)}
+
+
+def extract_repo_ids(markdown_text: str) -> set[int]:
+    return {
+        int(match.group("repo_id"))
+        for match in REPO_LINK_PATTERN.finditer(markdown_text)
+        if match.group("repo_id") is not None
+    }
+
+
+def repo_id(repo: dict[str, str]) -> int:
+    return int(repo["id"])
+
+
+def format_repo_link(full_name: str, html_url: str, repo_id_value: int) -> str:
+    return f'[{full_name}]({html_url} "repo-id: {repo_id_value}")'
+
+
+def annotate_repo_links(markdown_text: str, repo_ids_by_full_name: dict[str, int]) -> str:
+    def replace(match: re.Match[str]) -> str:
+        full_name = match.group("full_name")
+        if match.group("repo_id") is not None or full_name not in repo_ids_by_full_name:
+            return match.group(0)
+
+        label = match.group("label")
+        return format_repo_link(label, f"https://github.com/{full_name}", repo_ids_by_full_name[full_name])
+
+    return REPO_LINK_PATTERN.sub(replace, markdown_text)
 
 
 def normalize_one_liner(description: str | None) -> str:
@@ -55,7 +88,7 @@ def normalize_one_liner(description: str | None) -> str:
 
 def format_inbox_row(repo: dict[str, str]) -> str:
     return (
-        f"| [{repo['full_name']}]({repo['html_url']}) | "
+        f"| {format_repo_link(repo['full_name'], repo['html_url'], repo_id(repo))} | "
         f"{normalize_one_liner(repo.get('description'))} |"
     )
 
@@ -92,13 +125,22 @@ def find_inbox_table_bounds(lines: list[str]) -> tuple[int, int]:
 
 
 def update_readme_inbox(readme_text: str, starred_repos: Iterable[dict[str, str]]) -> tuple[str, list[str]]:
-    lines = readme_text.splitlines()
+    starred_repos = list(starred_repos)
+    repo_ids_by_full_name = {repo["full_name"]: repo_id(repo) for repo in starred_repos}
+    readme_with_repo_ids = annotate_repo_links(readme_text, repo_ids_by_full_name)
+
+    lines = readme_with_repo_ids.splitlines()
     insert_at, rows_end = find_inbox_table_bounds(lines)
 
-    existing_repos = extract_repo_urls(readme_text)
-    new_repos = [repo for repo in starred_repos if repo["full_name"] not in existing_repos]
+    existing_repo_ids = extract_repo_ids(readme_with_repo_ids)
+    existing_repos = extract_repo_urls(readme_with_repo_ids)
+    new_repos = [
+        repo
+        for repo in starred_repos
+        if repo_id(repo) not in existing_repo_ids and repo["full_name"] not in existing_repos
+    ]
     if not new_repos:
-        return readme_text, []
+        return readme_with_repo_ids, []
 
     new_rows = [format_inbox_row(repo) for repo in new_repos]
     updated_lines = lines[:insert_at] + new_rows + lines[insert_at:rows_end] + lines[rows_end:]

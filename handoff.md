@@ -1,6 +1,7 @@
 # Handoff
 
 ## 已完成
+- 已通过本机 `Music` 应用播放 `Hit Hiphops` 播放列表，当前已开始播放歌曲 `Bank Account - 21 Savage`。
 - 新建 `README.md`，按 `Inbox / AI / AI-Harness / AI-Tools / Developer-Tools / Infrastructure / Visualisation / Security / GameDev / Learning` 分类整理当前 48 个 GitHub stars。
 - 已按要求删除 `README.md` 开头里关于“为什么存”的表述，并移除全部表格中的 `Why starred` 列。
 - 已新增 `scripts/sync_stars.py`，用公开 GitHub API 增量同步新的 starred repos 到 `README.md` 的 `Inbox`。
@@ -20,11 +21,13 @@
 - 已统一 `README.md` 全文为英文标点，并处理英文标点后接中文时的空格。
 
 ## 剩余问题
+- 如果你想换成更安静的专注流或别的曲风，还没有固定默认播放源。
 - 各项 `Tags` 目前基于仓库描述推断，后续可以按真实使用体验继续微调。
 - `README.md` 的分组命名和拼写仍不完全统一，后续可以继续整理。
 - `Infrastructure` 的边界目前偏向自建, 运维, 远程连接, 平台底座类项目；若后续要把底层渲染/排版引擎也纳入, 需要先重定义分组口径。
 
 ## 下一步方向
+1. 如果你想固定一个 `lock in` 默认歌单，可以下轮直接指定平台或风格，我可以帮你设成更稳定的入口。
 1. 如果要继续维护，可以进一步统一各分组名称和拼写，比如 `Assests` 是否改为 `Assets`。
 2. 继续按你的习惯微调分类；新的 star 会先自动进入 `Inbox`。
 3. 后续如语音类仓库增多，可考虑新增独立分组（如 `AI-Speech`）提高检索效率。
