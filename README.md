@@ -21,54 +21,6 @@
 
 | Repo | One-liner |
 |---|---|
-| [KaTeX/KaTeX](https://github.com/KaTeX/KaTeX) | Fast math typesetting for the web. |
-| [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶 |
-| [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system. |
-| [Wing900/ManimCat](https://github.com/Wing900/ManimCat) | EN: ManimCat: AI-generated math animations from natural language. High-quality Manim rendering with LaTeX support and auto-code fixing. 中: ManimCat：AI 数学动画生成器。支持描述即视频，内置 LaTeX 与代码纠错，让数学动效触手可及。 |
-| [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) | Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API. |
-| [borawong/AiMaMi](https://github.com/borawong/AiMaMi) | 为OpenAI Codex打造的桌面伴侣。 |
-| [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) | 翻墙-科学上网 |
-| [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) | Desktop app to manage markdown knowledge bases |
-| [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites |
-| [guofei9987/blind_watermark](https://github.com/guofei9987/blind_watermark) | Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！ |
-| [ManimCommunity/manim](https://github.com/ManimCommunity/manim) | A community-maintained Python framework for creating mathematical animations. |
-| [blader/humanizer](https://github.com/blader/humanizer) | Claude Code skill that removes signs of AI-generated writing from text |
-| [godotengine/godot](https://github.com/godotengine/godot) | Godot Engine – Multi-platform 2D and 3D game engine |
-| [xiaojilele-glitch/WhyBuddy](https://github.com/xiaojilele-glitch/WhyBuddy) | WhyBuddy — an AI agent crew that questions your product idea and rehearses it before you build. One sentence in → goal clarification, multi-route plan, full spec (requirements/design/tasks), feasibility & architecture out. Decide what's worth building, in minutes. |
-| [xiaojilele-glitch/DuanYun](https://github.com/xiaojilele-glitch/DuanYun) | AI Agent OS with visible workflow, real execution, and a 3D office shell. From one sentence to full task lifecycle — plan, run, review, replay. |
-| [xiaojilele-glitch/cube-pets-office](https://github.com/xiaojilele-glitch/cube-pets-office) | AI Agent OS with visible workflow, real execution, and a 3D office shell. From one sentence to full task lifecycle — plan, run, review, replay. |
-| [Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization](https://github.com/Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization) | ”数学不难“  之  《线性代数不难》上下册，66话题完册；欢迎批评指正 |
-| [Visualize-ML/Book1_Python-For-Beginners](https://github.com/Visualize-ML/Book1_Python-For-Beginners) | Book_1_《编程不难》 - 鸢尾花书：从加减乘除到机器学习；请多多批评指正！ |
-| [tuya/TuyaOpen](https://github.com/tuya/TuyaOpen) | Next-gen AI+IoT framework for T2/T3/T5AI/ESP32/and more – Fast IoT and AI Agent hardware integration |
-| [snarktank/ralph](https://github.com/snarktank/ralph) | Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete. |
-| [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers |
-| [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment. |
-| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |
-| [opencroc/Hermes-Office-UI](https://github.com/opencroc/Hermes-Office-UI) | OpenClaw / Hermes Agents showed how agents think — Cube Pets Office shows how they execute. |
-| [edu-ai-builders/math-viz-kit](https://github.com/edu-ai-builders/math-viz-kit "repo-id: 1212112489") | 一套人教小学到大学的可视化交互式数学工具包, 就是有些bug, 还能反过来当生成新可视化的 skill. |
-| [karpathy/LLM101n](https://github.com/karpathy/LLM101n "repo-id: 806315903") | Karpathy 新开的 LLM 教学仓库, 几年了没更新出来, 暂时还没有, 他是一个很传奇的AI领域任务, 他创办的Eureka Labs 是一个很神秘的 AI Edu 机构, 主要是先观望, 应该会是一个很好用的学习库    |
-| [jnsahaj/tweakcn](https://github.com/jnsahaj/tweakcn "repo-id: 948174507") | shadcn/ui 的可视化主题编辑器, 调 token 和配色很直观. |
-| [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits "repo-id: 838695230") | 动效味很重的 React 组件库, 做有记忆点的网站时很好翻. |
-| [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems "repo-id: 93558276") | 设计系统大索引, 想看成熟产品怎么做规范可以从这里翻起. |
-| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md "repo-id: 1197515131") | 最近很火的 DESIGN.md 索引库, 本质是把审美和风格约束写成 agent 能读的文本. |
-| [logto-io/logto](https://github.com/logto-io/logto "repo-id: 378310716") | 开源身份认证底座, SaaS 和 AI app 需要的登录, SSO, RBAC 这套基本都包了. |
-| [zhuzccn-rgb/AI-examiner](https://github.com/zhuzccn-rgb/AI-examiner "repo-id: 1156788666") | 用 LangGraph 串起 PDF 抽题, OCR, RAG 出卷的一套 AI 试卷工作流. |
-| [enjoyousedu25/edexcel-essay-marker](https://github.com/enjoyousedu25/edexcel-essay-marker "repo-id: 1170263089") | 给老师用的 Edexcel 作文批改小网页, 支持 OCR, 按 rubric 打分, 还能导出反馈报告. |
-| [git25math/25maths-examhub](https://github.com/git25math/25maths-examhub "repo-id: 1170230195") | IGCSE / Edexcel 数学学习站, 把词汇, 知识点, 真题和学习状态整成了一套. |
-| [Grade-Boundaries/GradeBoundaries-dev](https://github.com/Grade-Boundaries/GradeBoundaries-dev "repo-id: 992783999") | 两个 A-Level 学生做的分数线可视化站, 查趋势很直观. |
-| [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf "repo-id: 982587624") | 面向 AI-ready data 的 PDF 解析器, 想把 PDF 喂给 agent 或 RAG 可以看看. |
-| [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM "repo-id: 1057664813") | OpenBMB 的 tokenizer-free TTS, 主打多语种, 声音设计和拟真克隆. |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent "repo-id: 1024554267") | Nous 的 Hermes Agent 框架, 走的是能一路长大的 agent 这条路. |
-| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor "repo-id: 1124219907") | 港大的个性化学习 agent, 把 tutor 这件事做成了 agent-native. |
-| [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills "repo-id: 1142983825") | 把 Karpathy 对 LLM coding 坑点的观察, 浓缩成了一份 CLAUDE.md. |
-| [farzaa/clicky](https://github.com/farzaa/clicky "repo-id: 1203503423") | 爆过一轮的 AI 桌面老师, 贴着光标讲解屏幕, 还能直接指给你看. |
-| [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui "repo-id: 295992065") | TailwindLabs 的无样式可访问组件库, 很适合自己接 design system. |
-| [radix-ui/website](https://github.com/radix-ui/website "repo-id: 316012819") | Radix 官网和文档站源码, 想学他们怎么写组件文档可以直接扒. |
-| [shadcn-ui/ui](https://github.com/shadcn-ui/ui "repo-id: 585146387") | 现在最流行的前端组件分发平台之一, 好看, 也改得动. |
-| [outerbase/studio](https://github.com/outerbase/studio "repo-id: 744296994") | 浏览器里的轻量数据库工作台, 连 Postgres, MySQL, SQLite 都挺方便. |
-| [BobH233/NeuroMark](https://github.com/BobH233/NeuroMark "repo-id: 1196016480") | 本地优先的 AI 阅卷工作台, 扫描, 参考答案生成, 批量批改一条龙. |
-| [lsd-rs/lsd](https://github.com/lsd-rs/lsd "repo-id: 158927812") | 给传统 ls 换了套现代皮肤的 Rust CLI, 图标, 配色和信息密度都更舒服. |
-| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus "repo-id: 1031059905") | 零服务器的代码情报工具, 本地把仓库建成知识图谱, 给人和 agent 一起查. |
 | _Empty_ | 已完成当前 Inbox 分类, 等待新 star 自动进入 |
 
 [Back to top](#starred-repos-atlas)
@@ -82,6 +34,9 @@
 | [moeru-ai/airi](https://github.com/moeru-ai/airi "repo-id: 896924279") | 自托管 AI companion / realtime agent 应用 | companion, realtime, self-hosted |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow "repo-id: 979115477") | 字节的 agent | superagent, long-horizon, sandbox |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw "repo-id: 1103012935") | 开启社交媒体 agent 时代 | assistant, openclaw, platform |
+| [xiaojilele-glitch/WhyBuddy](https://github.com/xiaojilele-glitch/WhyBuddy) | 一个推理 agent, 作者最初是想让模型推理过程透明化, 降低 AGI 的推理成本, 减少 token 消耗. 现在主要是帮你把大的, 模糊的想法理清, 生成可以交给 agent 去执行的一步步步骤. | reasoning-agent, planning, spec |
+| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor "repo-id: 1124219907") | 港大的自学老师 agent, 做得好的主要是记忆和 RAG, 只根据提供的材料在做. | tutor, memory, rag |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent "repo-id: 1024554267") | 没啥说的, OpenClaw 之后大火的开源 agent, 特点是自己的框架和进化. | hermes, ai-agent, openclaw |
 
 [Back to top](#starred-repos-atlas)
 
@@ -94,6 +49,11 @@
 | [obra/superpowers](https://github.com/obra/superpowers "repo-id: 1073224795") | 一套 agent 用的开好的开发流程 skills, 有点烧 token | methodology, skills, harness |
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill "repo-id: 1106996539") | 比较火的 design-skill, 暂时没什么记忆点 | ui-ux, ai-skill, design |
 | [ndpvt-web/latex-document-skill](https://github.com/ndpvt-web/latex-document-skill "repo-id: 1157286147") | 一个 latex 写作 skill, 比较擅长从其他文档转化为 latex | latex, templates, documentation |
+| [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 把一个人的协作习惯沉淀成 skill, 这个方向很有意思, 像是在给工作流留数字分身. | skills, digital-life, workflow |
+| [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | Google 推的 DESIGN.md 规范, 类似于 AGENTS.md. | design-md, agents, design-system |
+| [blader/humanizer](https://github.com/blader/humanizer) | 一个专门去 AI 味的 skill, 但是暂时没感觉有多好用. | writing, skill, humanizer |
+| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | AI 神 Karpathy 的想法蒸出来的 agent 代码 skill, 目前没深度体验. | karpathy, coding-agent, skill |
+| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md "repo-id: 1197515131") | 和 Google 的 DESIGN.md 很像, 也是把设计先规范化, 不过他们提供了很多大公司的现成模板. | design-md, awesome-list, templates |
 
 [Back to top](#starred-repos-atlas)
 
@@ -106,6 +66,7 @@
 | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode "repo-id: 1130809465") | 面向团队的 Claude Code 多 agent 编排 | claude-code, orchestration, teamwork |
 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice "repo-id: 1087192965") | Claude Code 工作流与实践库 | agents, prompts, workflow |
 | [cft0808/edict](https://github.com/cft0808/edict "repo-id: 1164832776") | 三省六部制的 OpenClaw 多 agent 编排系统 | openclaw, orchestration, dashboard |
+| [snarktank/ralph](https://github.com/snarktank/ralph) | 大名鼎鼎的 Ralph, 可以让 AI 用循环的方式跑长任务, 执行 PRD. | autonomous-agent, prd, workflow |
 
 [Back to top](#starred-repos-atlas)
 
@@ -121,6 +82,13 @@
 | [freestylefly/openclaw-wechat](https://github.com/freestylefly/openclaw-wechat "repo-id: 1156162551") | 让 OpenClaw 稳定连接个人微信 | openclaw, wechat, integration |
 | [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp "repo-id: 1031215137") | 面向小红书的 MCP 接口 | mcp, xiaohongshu, integration |
 | [JefferyHcool/BiliNote](https://github.com/JefferyHcool/BiliNote "repo-id: 965494890") | AI 视频笔记生成工具 | notes, video, ai |
+| [borawong/AiMaMi](https://github.com/borawong/AiMaMi) | AI 妈咪, 可以批量管理 AI 订阅账号和 API, 切换巨丝滑, 目前看到最好的. | ai-accounts, api, desktop |
+| [tuya/TuyaOpen](https://github.com/tuya/TuyaOpen) | 在翻阅鸢尾花书籍的赞助名单看到的一个赞助人的项目, 应该是给嵌入式开发里装 agent 的平台. | aiot, embedded, agent |
+| [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | 开源金融终端, 目标是开源的 Bloomberg, 不赖. | finance, terminal, bloomberg |
+| [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM "repo-id: 1057664813") | 开源的 TTS, 支持的语言很多. | tts, multilingual, speech |
+| [farzaa/clicky](https://github.com/farzaa/clicky "repo-id: 1203503423") | 这个项目很有趣, 这是你演示给 agent 看你想做的什么操作, 通过录屏的方式让 AI 学习你的点击等操作. | screen-recording, ai-agent, automation |
+| [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf "repo-id: 982587624") | PDF parser, 把 PDF 输出成结构化文本给 AI 看, RAG 感觉很好用. | pdf, parser, rag |
+| [Wing900/ManimCat](https://github.com/Wing900/ManimCat) | AI 生成 Manim 动画的工具, 自带 LaTeX 纠错不错. | manim, ai-video, latex |
 
 [Back to top](#starred-repos-atlas)
 
@@ -133,6 +101,18 @@
 | [chenglou/pretext](https://github.com/chenglou/pretext "repo-id: 1175538883") | 打破了传统 DOM, 从根源解决 HTML 文字排版问题 | typography, html, rendering |
 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp "repo-id: 307260205") | 视频网站下载爬取 | cli, media, downloader |
 | [yobix-ai/extractous](https://github.com/yobix-ai/extractous "repo-id: 810194768") | 什么都能抓取下载 | extraction, rust, unstructured-data |
+| [KaTeX/KaTeX](https://github.com/KaTeX/KaTeX) | Web 渲染 LaTeX 工具, 大部分时候好用, 但感觉不太宽容, 喜欢 MathJax. | latex, math, frontend |
+| [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) | 开源的 Web 应用搭建平台, 体感不如让 AI 直接写, 提供了很多组件就是, 让国产 agent 用说不定还行. | app-builder, low-code, components |
+| [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) | Obsidian 的挑战者, Git 优先. | markdown, knowledge-base, git |
+| [jnsahaj/tweakcn](https://github.com/jnsahaj/tweakcn "repo-id: 948174507") | shadcn 的可视化编辑器, 主要是调颜色和样式. | shadcn, theme-editor, tailwind |
+| [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits "repo-id: 838695230") | 开源 Web 的 React 动画网站的库, 需要动效开源看. | react, animation, components |
+| [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui "repo-id: 295992065") | Tailwind 的无样式组件库. | components, accessibility, tailwind |
+| [radix-ui/website](https://github.com/radix-ui/website "repo-id: 316012819") | Radix 官网和文档站源码, 几乎最出名的 React 无样式组件库, 经常和 shadcn 捆绑. | radix, docs, design-system |
+| [shadcn-ui/ui](https://github.com/shadcn-ui/ui "repo-id: 585146387") | 最出名的 React 组件库, 样式其实是由 Tailwind 负责的, 无样式组件也来自于 Radix. | components, shadcn, react |
+| [outerbase/studio](https://github.com/outerbase/studio "repo-id: 744296994") | 在浏览器里看数据库的轻量化工具. | database, gui, browser |
+| [logto-io/logto](https://github.com/logto-io/logto "repo-id: 378310716") | 开源身份认证底座. | auth, oauth, developer-tool |
+| [lsd-rs/lsd](https://github.com/lsd-rs/lsd "repo-id: 158927812") | 给传统 ls 换了套现代皮肤的 Rust CLI, 图标, 配色和信息密度都更舒服. | rust, cli, terminal |
+| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus "repo-id: 1031059905") | 类似于 codegraph, 把一个仓库写成知识图谱, 可以给人和 agent 看. | codegraph, knowledge-graph, agent |
 
 [Back to top](#starred-repos-atlas)
 
@@ -141,6 +121,7 @@
 | Repo | One-liner | Tags |
 |---|---|---|
 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk "repo-id: 299354207") | 最好用的远程方案, 可以自建服务器 | remote-desktop, self-hosted, ops |
+| [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) | 科学上网资料和工具集合. | proxy, network, censorship |
 
 [Back to top](#starred-repos-atlas)
 
@@ -156,6 +137,7 @@
 | [ruvnet/RuView](https://github.com/ruvnet/RuView "repo-id: 997737944") | 用 WiFi 信号做姿态估计和生命体征感知 | sensing, pose-estimation, wifi |
 | [motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas "repo-id: 520955562") | 用代码做动画和演示 | animation, presentation, typescript |
 | [3b1b/manim](https://github.com/3b1b/manim "repo-id: 32689863") | 3b1b 的动画引擎, 基于 python | math, animation, python |
+| [ManimCommunity/manim](https://github.com/ManimCommunity/manim) | 大名鼎鼎的 Manim, 三蓝一棕的动画编写 Python 包. | manim, math, animation |
 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion "repo-id: 274495425") | 代码写 React | react, video, rendering |
 | [varkor/quiver](https://github.com/varkor/quiver "repo-id: 163348528") | 网页画图生成 tikz | diagram, editor, web |
 
@@ -166,6 +148,9 @@
 | Repo | One-liner | Tags |
 |---|---|---|
 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock "repo-id: 162998479") | 社工开盒 | osint, username, reconnaissance |
+| [soxoj/maigret](https://github.com/soxoj/maigret) | 用用户名全网开盒搜索工具, 对国内平台支持一般. | osint, username, reconnaissance |
+| [guofei9987/blind_watermark](https://github.com/guofei9987/blind_watermark) | 在图片里打隐藏信息的工具, 非常强, 可以做陷阱和取证. | watermark, steganography, image |
+| [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | 一站式黑客工具箱, 具体有什么得详细看. | hacking, pentest, toolkit |
 
 [Back to top](#starred-repos-atlas)
 
@@ -175,6 +160,7 @@
 |---|---|---|
 | [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd "repo-id: 471226425") | 终末地 MA | game-tools, automation, arknights |
 | [bocai-bca/chat_bubble_simulator](https://github.com/bocai-bca/chat_bubble_simulator "repo-id: 877421626") | 用 Godot4 模拟聊天气泡视觉效果 | godot, ui-simulation, moviemaker |
+| [godotengine/godot](https://github.com/godotengine/godot) | Godot 游戏引擎, 开源游戏开发绕不开的一座大山. | game-engine, godot, gamedev |
 
 [Back to top](#starred-repos-atlas)
 
@@ -190,6 +176,10 @@
 | [sanbuphy/learn-coding-agent](https://github.com/sanbuphy/learn-coding-agent "repo-id: 1197029054") | 学 agent 的原理 | coding-agent, research, notes |
 | [huggingface/skills](https://github.com/huggingface/skills "repo-id: 1102903896") | 让 agents 接入 Hugging Face 的 skill 层 | huggingface, agents, skills |
 | [agentskills/agentskills](https://github.com/agentskills/agentskills "repo-id: 1117639997") | Agent Skills 的定义规范与文档 | specification, skills, docs |
+| [Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization](https://github.com/Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization) | 鸢尾花的线性代数不难. | linear-algebra, python, visualization |
+| [Visualize-ML/Book1_Python-For-Beginners](https://github.com/Visualize-ML/Book1_Python-For-Beginners) | 鸢尾花的 Python 不难. | python, beginner, education |
+| [karpathy/LLM101n](https://github.com/karpathy/LLM101n "repo-id: 806315903") | Karpathy 的 LLM 教学仓库, 他创立的神秘组织 Eureka Labs 在负责. | llm, course, karpathy |
+| [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems "repo-id: 93558276") | 好的设计的大合集, 有很多成熟的设计方案, 可以来参考, 比如某某大学的, 某某大公司的. | design-system, awesome-list, ui |
 
 [Back to top](#starred-repos-atlas)
 
