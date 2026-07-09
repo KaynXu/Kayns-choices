@@ -1,10 +1,7 @@
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Kayn's Choices",
-  description: "A searchable atlas of GitHub projects worth returning to.",
-};
+import atlasData from "./data/repos.generated.json";
+import { RepoAtlas } from "./components/repo-atlas";
+import type { RepositoryAtlas } from "./lib/types";
 
 export default function Home() {
-  return <main>Kayn&apos;s Choices</main>;
+  return <RepoAtlas atlas={atlasData as RepositoryAtlas} />;
 }
