@@ -1,0 +1,2233 @@
+{
+  "categories": [
+    {
+      "name": "Inbox",
+      "slug": "inbox",
+      "count": 0
+    },
+    {
+      "name": "AI-LLM/Agents",
+      "slug": "ai-llm-agents",
+      "count": 8
+    },
+    {
+      "name": "AI-Skills",
+      "slug": "ai-skills",
+      "count": 10
+    },
+    {
+      "name": "AI-Harness",
+      "slug": "ai-harness",
+      "count": 6
+    },
+    {
+      "name": "AI-Tools",
+      "slug": "ai-tools",
+      "count": 15
+    },
+    {
+      "name": "Developer-Tools",
+      "slug": "developer-tools",
+      "count": 17
+    },
+    {
+      "name": "Infrastructure",
+      "slug": "infrastructure",
+      "count": 2
+    },
+    {
+      "name": "Visualisation",
+      "slug": "visualisation",
+      "count": 11
+    },
+    {
+      "name": "Security",
+      "slug": "security",
+      "count": 4
+    },
+    {
+      "name": "GameDev",
+      "slug": "gamedev",
+      "count": 3
+    },
+    {
+      "name": "Learning and Lists",
+      "slug": "learning-and-lists",
+      "count": 12
+    },
+    {
+      "name": "Assests and Resources",
+      "slug": "assests-and-resources",
+      "count": 7
+    }
+  ],
+  "repositories": [
+    {
+      "id": "1104332987",
+      "fullName": "666ghj/MiroFish",
+      "owner": "666ghj",
+      "url": "https://github.com/666ghj/MiroFish",
+      "avatarUrl": "https://github.com/666ghj.png?size=96",
+      "note": "一个多智能体的 AI 预测引擎, 他们用这个预测了红楼梦的后四十回, 给了 context 后会生成一张大大的 graphRAG, 通过提取现实世界的种子信息 ( 如突发新闻, 政策草案, 金融信号), 自动构建出高保真的平行数字世界. 在此空间内, 成千上万个具备独立人格, 长期记忆与行为逻辑的智能体进行自由交互与社会演化. 你可透过「上帝视角」动态注入变量, 精准推演未来走向, 让未来在数字沙盘中预演, 助决策在百战模拟后胜出.",
+      "tags": [
+        "multi-agent",
+        "simulation",
+        "prediction"
+      ],
+      "category": "AI-LLM/Agents",
+      "categorySlug": "ai-llm-agents"
+    },
+    {
+      "id": "1011567289",
+      "fullName": "shiyu-coder/Kronos",
+      "owner": "shiyu-coder",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "avatarUrl": "https://github.com/shiyu-coder.png?size=96",
+      "note": "面向金融市场语言的基础模型",
+      "tags": [
+        "finance",
+        "foundation-model",
+        "time-series"
+      ],
+      "category": "AI-LLM/Agents",
+      "categorySlug": "ai-llm-agents"
+    },
+    {
+      "id": "896924279",
+      "fullName": "moeru-ai/airi",
+      "owner": "moeru-ai",
+      "url": "https://github.com/moeru-ai/airi",
+      "avatarUrl": "https://github.com/moeru-ai.png?size=96",
+      "note": "自托管 AI companion / realtime agent 应用",
+      "tags": [
+        "companion",
+        "realtime",
+        "self-hosted"
+      ],
+      "category": "AI-LLM/Agents",
+      "categorySlug": "ai-llm-agents"
+    },
+    {
+      "id": "979115477",
+      "fullName": "bytedance/deer-flow",
+      "owner": "bytedance",
+      "url": "https://github.com/bytedance/deer-flow",
+      "avatarUrl": "https://github.com/bytedance.png?size=96",
+      "note": "字节的 agent",
+      "tags": [
+        "superagent",
+        "long-horizon",
+        "sandbox"
+      ],
+      "category": "AI-LLM/Agents",
+      "categorySlug": "ai-llm-agents"
+    },
+    {
+      "id": "1103012935",
+      "fullName": "openclaw/openclaw",
+      "owner": "openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "avatarUrl": "https://github.com/openclaw.png?size=96",
+      "note": "开启社交媒体 agent 时代",
+      "tags": [
+        "assistant",
+        "openclaw",
+        "platform"
+      ],
+      "category": "AI-LLM/Agents",
+      "categorySlug": "ai-llm-agents"
+    },
+    {
+      "id": "xiaojilele-glitch/WhyBuddy",
+      "fullName": "xiaojilele-glitch/WhyBuddy",
+      "owner": "xiaojilele-glitch",
+      "url": "https://github.com/xiaojilele-glitch/WhyBuddy",
+      "avatarUrl": "https://github.com/xiaojilele-glitch.png?size=96",
+      "note": "一个推理 agent, 作者最初是想让模型推理过程透明化, 降低 AGI 的推理成本, 减少 token 消耗. 现在主要是帮你把大的, 模糊的想法理清, 生成可以交给 agent 去执行的一步步步骤.",
+      "tags": [
+        "reasoning-agent",
+        "planning",
+        "spec"
+      ],
+      "category": "AI-LLM/Agents",
+      "categorySlug": "ai-llm-agents"
+    },
+    {
+      "id": "1124219907",
+      "fullName": "HKUDS/DeepTutor",
+      "owner": "HKUDS",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "avatarUrl": "https://github.com/HKUDS.png?size=96",
+      "note": "港大的自学老师 agent, 做得好的主要是记忆和 RAG, 只根据提供的材料在做.",
+      "tags": [
+        "tutor",
+        "memory",
+        "rag"
+      ],
+      "category": "AI-LLM/Agents",
+      "categorySlug": "ai-llm-agents"
+    },
+    {
+      "id": "1024554267",
+      "fullName": "NousResearch/hermes-agent",
+      "owner": "NousResearch",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "avatarUrl": "https://github.com/NousResearch.png?size=96",
+      "note": "没啥说的, OpenClaw 之后大火的开源 agent, 特点是自己的框架和进化.",
+      "tags": [
+        "hermes",
+        "ai-agent",
+        "openclaw"
+      ],
+      "category": "AI-LLM/Agents",
+      "categorySlug": "ai-llm-agents"
+    },
+    {
+      "id": "1140843380",
+      "fullName": "mvanhorn/last30days-skill",
+      "owner": "mvanhorn",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "avatarUrl": "https://github.com/mvanhorn.png?size=96",
+      "note": "一个帮你在各大社交媒体总结过去一个月 AI 热点的 Skill",
+      "tags": [
+        "research",
+        "social-media",
+        "trend-summary"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
+    },
+    {
+      "id": "1137388347",
+      "fullName": "remotion-dev/skills",
+      "owner": "remotion-dev",
+      "url": "https://github.com/remotion-dev/skills",
+      "avatarUrl": "https://github.com/remotion-dev.png?size=96",
+      "note": "Remotion 的 skill, 程序写动画",
+      "tags": [
+        "skills",
+        "agents",
+        "patterns"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
+    },
+    {
+      "id": "1073224795",
+      "fullName": "obra/superpowers",
+      "owner": "obra",
+      "url": "https://github.com/obra/superpowers",
+      "avatarUrl": "https://github.com/obra.png?size=96",
+      "note": "一套 agent 用的开好的开发流程 skills, 有点烧 token",
+      "tags": [
+        "methodology",
+        "skills",
+        "harness"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
+    },
+    {
+      "id": "1106996539",
+      "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "owner": "nextlevelbuilder",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "avatarUrl": "https://github.com/nextlevelbuilder.png?size=96",
+      "note": "比较火的 design-skill, 暂时没什么记忆点",
+      "tags": [
+        "ui-ux",
+        "ai-skill",
+        "design"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
+    },
+    {
+      "id": "1157286147",
+      "fullName": "ndpvt-web/latex-document-skill",
+      "owner": "ndpvt-web",
+      "url": "https://github.com/ndpvt-web/latex-document-skill",
+      "avatarUrl": "https://github.com/ndpvt-web.png?size=96",
+      "note": "一个 latex 写作 skill, 比较擅长从其他文档转化为 latex",
+      "tags": [
+        "latex",
+        "templates",
+        "documentation"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
+    },
+    {
+      "id": "titanwings/colleague-skill",
+      "fullName": "titanwings/colleague-skill",
+      "owner": "titanwings",
+      "url": "https://github.com/titanwings/colleague-skill",
+      "avatarUrl": "https://github.com/titanwings.png?size=96",
+      "note": "把一个人的协作习惯沉淀成 skill, 这个方向很有意思, 像是在给工作流留数字分身.",
+      "tags": [
+        "skills",
+        "digital-life",
+        "workflow"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
+    },
+    {
+      "id": "google-labs-code/design.md",
+      "fullName": "google-labs-code/design.md",
+      "owner": "google-labs-code",
+      "url": "https://github.com/google-labs-code/design.md",
+      "avatarUrl": "https://github.com/google-labs-code.png?size=96",
+      "note": "Google 推的 DESIGN.md 规范, 类似于 AGENTS.md.",
+      "tags": [
+        "design-md",
+        "agents",
+        "design-system"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
+    },
+    {
+      "id": "blader/humanizer",
+      "fullName": "blader/humanizer",
+      "owner": "blader",
+      "url": "https://github.com/blader/humanizer",
+      "avatarUrl": "https://github.com/blader.png?size=96",
+      "note": "一个专门去 AI 味的 skill, 但是暂时没感觉有多好用.",
+      "tags": [
+        "writing",
+        "skill",
+        "humanizer"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
+    },
+    {
+      "id": "multica-ai/andrej-karpathy-skills",
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "owner": "multica-ai",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "avatarUrl": "https://github.com/multica-ai.png?size=96",
+      "note": "AI 神 Karpathy 的想法蒸出来的 agent 代码 skill, 目前没深度体验.",
+      "tags": [
+        "karpathy",
+        "coding-agent",
+        "skill"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
+    },
+    {
+      "id": "1197515131",
+      "fullName": "VoltAgent/awesome-design-md",
+      "owner": "VoltAgent",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "avatarUrl": "https://github.com/VoltAgent.png?size=96",
+      "note": "和 Google 的 DESIGN.md 很像, 也是把设计先规范化, 不过他们提供了很多大公司的现成模板.",
+      "tags": [
+        "design-md",
+        "awesome-list",
+        "templates"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
+    },
+    {
+      "id": "1148052330",
+      "fullName": "Yeachan-Heo/oh-my-codex",
+      "owner": "Yeachan-Heo",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "avatarUrl": "https://github.com/Yeachan-Heo.png?size=96",
+      "note": "韩国量化一个哥们开发的 Agent Harness for Codex p.s: 韩国量化男你害我害得很惨, 我上网课你烧我一个亿多token... 别用, 避雷",
+      "tags": [
+        "codex",
+        "harness",
+        "workflow"
+      ],
+      "category": "AI-Harness",
+      "categorySlug": "ai-harness"
+    },
+    {
+      "id": "937253475",
+      "fullName": "anthropics/claude-code",
+      "owner": "anthropics",
+      "url": "https://github.com/anthropics/claude-code",
+      "avatarUrl": "https://github.com/anthropics.png?size=96",
+      "note": "没啥说的, CC 新时代的 Coding Agent",
+      "tags": [
+        "coding-agent",
+        "cli",
+        "workflow"
+      ],
+      "category": "AI-Harness",
+      "categorySlug": "ai-harness"
+    },
+    {
+      "id": "1130809465",
+      "fullName": "Yeachan-Heo/oh-my-claudecode",
+      "owner": "Yeachan-Heo",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "avatarUrl": "https://github.com/Yeachan-Heo.png?size=96",
+      "note": "面向团队的 Claude Code 多 agent 编排",
+      "tags": [
+        "claude-code",
+        "orchestration",
+        "teamwork"
+      ],
+      "category": "AI-Harness",
+      "categorySlug": "ai-harness"
+    },
+    {
+      "id": "1087192965",
+      "fullName": "shanraisshan/claude-code-best-practice",
+      "owner": "shanraisshan",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "avatarUrl": "https://github.com/shanraisshan.png?size=96",
+      "note": "Claude Code 工作流与实践库",
+      "tags": [
+        "agents",
+        "prompts",
+        "workflow"
+      ],
+      "category": "AI-Harness",
+      "categorySlug": "ai-harness"
+    },
+    {
+      "id": "1164832776",
+      "fullName": "cft0808/edict",
+      "owner": "cft0808",
+      "url": "https://github.com/cft0808/edict",
+      "avatarUrl": "https://github.com/cft0808.png?size=96",
+      "note": "三省六部制的 OpenClaw 多 agent 编排系统",
+      "tags": [
+        "openclaw",
+        "orchestration",
+        "dashboard"
+      ],
+      "category": "AI-Harness",
+      "categorySlug": "ai-harness"
+    },
+    {
+      "id": "snarktank/ralph",
+      "fullName": "snarktank/ralph",
+      "owner": "snarktank",
+      "url": "https://github.com/snarktank/ralph",
+      "avatarUrl": "https://github.com/snarktank.png?size=96",
+      "note": "大名鼎鼎的 Ralph, 可以让 AI 用循环的方式跑长任务, 执行 PRD.",
+      "tags": [
+        "autonomous-agent",
+        "prd",
+        "workflow"
+      ],
+      "category": "AI-Harness",
+      "categorySlug": "ai-harness"
+    },
+    {
+      "id": "1044296738",
+      "fullName": "microsoft/VibeVoice",
+      "owner": "microsoft",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "avatarUrl": "https://github.com/microsoft.png?size=96",
+      "note": "微软的开源语音 AI, 有 ASR (Automatic Speech Recognition) 也有 TTS (Text-to-Speech).",
+      "tags": [
+        "speech",
+        "asr",
+        "tts"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "695864515",
+      "fullName": "hacksider/Deep-Live-Cam",
+      "owner": "hacksider",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "avatarUrl": "https://github.com/hacksider.png?size=96",
+      "note": "有点猛的开源 AI 换脸",
+      "tags": [
+        "vision",
+        "face-swap",
+        "realtime"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "1176011916",
+      "fullName": "HKUDS/CLI-Anything",
+      "owner": "HKUDS",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "avatarUrl": "https://github.com/HKUDS.png?size=96",
+      "note": "港大的把一切都变成 MCP 的工具",
+      "tags": [
+        "cli",
+        "agent-native",
+        "tooling"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "58374888",
+      "fullName": "wkentaro/labelme",
+      "owner": "wkentaro",
+      "url": "https://github.com/wkentaro/labelme",
+      "avatarUrl": "https://github.com/wkentaro.png?size=96",
+      "note": "图像标注工具",
+      "tags": [
+        "annotation",
+        "dataset",
+        "cv"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "1178737655",
+      "fullName": "THU-MAIC/OpenMAIC",
+      "owner": "THU-MAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "avatarUrl": "https://github.com/THU-MAIC.png?size=96",
+      "note": "清华的 AI 互动 RAG 课堂",
+      "tags": [
+        "education",
+        "multi-agent",
+        "classroom"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "1156162551",
+      "fullName": "freestylefly/openclaw-wechat",
+      "owner": "freestylefly",
+      "url": "https://github.com/freestylefly/openclaw-wechat",
+      "avatarUrl": "https://github.com/freestylefly.png?size=96",
+      "note": "让 OpenClaw 稳定连接个人微信",
+      "tags": [
+        "openclaw",
+        "wechat",
+        "integration"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "1031215137",
+      "fullName": "xpzouying/xiaohongshu-mcp",
+      "owner": "xpzouying",
+      "url": "https://github.com/xpzouying/xiaohongshu-mcp",
+      "avatarUrl": "https://github.com/xpzouying.png?size=96",
+      "note": "面向小红书的 MCP 接口",
+      "tags": [
+        "mcp",
+        "xiaohongshu",
+        "integration"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "965494890",
+      "fullName": "JefferyHcool/BiliNote",
+      "owner": "JefferyHcool",
+      "url": "https://github.com/JefferyHcool/BiliNote",
+      "avatarUrl": "https://github.com/JefferyHcool.png?size=96",
+      "note": "AI 视频笔记生成工具",
+      "tags": [
+        "notes",
+        "video",
+        "ai"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "borawong/AiMaMi",
+      "fullName": "borawong/AiMaMi",
+      "owner": "borawong",
+      "url": "https://github.com/borawong/AiMaMi",
+      "avatarUrl": "https://github.com/borawong.png?size=96",
+      "note": "AI 妈咪, 可以批量管理 AI 订阅账号和 API, 切换巨丝滑, 目前看到最好的.",
+      "tags": [
+        "ai-accounts",
+        "api",
+        "desktop"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "tuya/TuyaOpen",
+      "fullName": "tuya/TuyaOpen",
+      "owner": "tuya",
+      "url": "https://github.com/tuya/TuyaOpen",
+      "avatarUrl": "https://github.com/tuya.png?size=96",
+      "note": "在翻阅鸢尾花书籍的赞助名单看到的一个赞助人的项目, 应该是给嵌入式开发里装 agent 的平台.",
+      "tags": [
+        "aiot",
+        "embedded",
+        "agent"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "Fincept-Corporation/FinceptTerminal",
+      "fullName": "Fincept-Corporation/FinceptTerminal",
+      "owner": "Fincept-Corporation",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "avatarUrl": "https://github.com/Fincept-Corporation.png?size=96",
+      "note": "开源金融终端, 目标是开源的 Bloomberg, 不赖.",
+      "tags": [
+        "finance",
+        "terminal",
+        "bloomberg"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "1057664813",
+      "fullName": "OpenBMB/VoxCPM",
+      "owner": "OpenBMB",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "avatarUrl": "https://github.com/OpenBMB.png?size=96",
+      "note": "开源的 TTS, 支持的语言很多.",
+      "tags": [
+        "tts",
+        "multilingual",
+        "speech"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "1203503423",
+      "fullName": "farzaa/clicky",
+      "owner": "farzaa",
+      "url": "https://github.com/farzaa/clicky",
+      "avatarUrl": "https://github.com/farzaa.png?size=96",
+      "note": "这个项目很有趣, 这是你演示给 agent 看你想做的什么操作, 通过录屏的方式让 AI 学习你的点击等操作.",
+      "tags": [
+        "screen-recording",
+        "ai-agent",
+        "automation"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "982587624",
+      "fullName": "opendataloader-project/opendataloader-pdf",
+      "owner": "opendataloader-project",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "avatarUrl": "https://github.com/opendataloader-project.png?size=96",
+      "note": "PDF parser, 把 PDF 输出成结构化文本给 AI 看, RAG 感觉很好用.",
+      "tags": [
+        "pdf",
+        "parser",
+        "rag"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "Wing900/ManimCat",
+      "fullName": "Wing900/ManimCat",
+      "owner": "Wing900",
+      "url": "https://github.com/Wing900/ManimCat",
+      "avatarUrl": "https://github.com/Wing900.png?size=96",
+      "note": "AI 生成 Manim 动画的工具, 自带 LaTeX 纠错不错.",
+      "tags": [
+        "manim",
+        "ai-video",
+        "latex"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "598667202",
+      "fullName": "lightpanda-io/browser",
+      "owner": "lightpanda-io",
+      "url": "https://github.com/lightpanda-io/browser",
+      "avatarUrl": "https://github.com/lightpanda-io.png?size=96",
+      "note": "给 AI 或者 CLI 用的无头轻量浏览器",
+      "tags": [
+        "headless-browser",
+        "automation",
+        "cli"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "1073433866",
+      "fullName": "siddharthvaddem/openscreen",
+      "owner": "siddharthvaddem",
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "avatarUrl": "https://github.com/siddharthvaddem.png?size=96",
+      "note": "开源平替 Screen Studio",
+      "tags": [
+        "screencast",
+        "recording",
+        "desktop"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "1175538883",
+      "fullName": "chenglou/pretext",
+      "owner": "chenglou",
+      "url": "https://github.com/chenglou/pretext",
+      "avatarUrl": "https://github.com/chenglou.png?size=96",
+      "note": "打破了传统 DOM, 从根源解决 HTML 文字排版问题",
+      "tags": [
+        "typography",
+        "html",
+        "rendering"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "307260205",
+      "fullName": "yt-dlp/yt-dlp",
+      "owner": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "avatarUrl": "https://github.com/yt-dlp.png?size=96",
+      "note": "视频网站下载爬取",
+      "tags": [
+        "cli",
+        "media",
+        "downloader"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "810194768",
+      "fullName": "yobix-ai/extractous",
+      "owner": "yobix-ai",
+      "url": "https://github.com/yobix-ai/extractous",
+      "avatarUrl": "https://github.com/yobix-ai.png?size=96",
+      "note": "什么都能抓取下载",
+      "tags": [
+        "extraction",
+        "rust",
+        "unstructured-data"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "KaTeX/KaTeX",
+      "fullName": "KaTeX/KaTeX",
+      "owner": "KaTeX",
+      "url": "https://github.com/KaTeX/KaTeX",
+      "avatarUrl": "https://github.com/KaTeX.png?size=96",
+      "note": "Web 渲染 LaTeX 工具, 大部分时候好用, 但感觉不太宽容, 喜欢 MathJax.",
+      "tags": [
+        "latex",
+        "math",
+        "frontend"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "appsmithorg/appsmith",
+      "fullName": "appsmithorg/appsmith",
+      "owner": "appsmithorg",
+      "url": "https://github.com/appsmithorg/appsmith",
+      "avatarUrl": "https://github.com/appsmithorg.png?size=96",
+      "note": "开源的 Web 应用搭建平台, 体感不如让 AI 直接写, 提供了很多组件就是, 让国产 agent 用说不定还行.",
+      "tags": [
+        "app-builder",
+        "low-code",
+        "components"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "refactoringhq/tolaria",
+      "fullName": "refactoringhq/tolaria",
+      "owner": "refactoringhq",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "avatarUrl": "https://github.com/refactoringhq.png?size=96",
+      "note": "Obsidian 的挑战者, Git 优先.",
+      "tags": [
+        "markdown",
+        "knowledge-base",
+        "git"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "948174507",
+      "fullName": "jnsahaj/tweakcn",
+      "owner": "jnsahaj",
+      "url": "https://github.com/jnsahaj/tweakcn",
+      "avatarUrl": "https://github.com/jnsahaj.png?size=96",
+      "note": "shadcn 的可视化编辑器, 主要是调颜色和样式.",
+      "tags": [
+        "shadcn",
+        "theme-editor",
+        "tailwind"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "838695230",
+      "fullName": "DavidHDev/react-bits",
+      "owner": "DavidHDev",
+      "url": "https://github.com/DavidHDev/react-bits",
+      "avatarUrl": "https://github.com/DavidHDev.png?size=96",
+      "note": "开源 Web 的 React 动画网站的库, 需要动效开源看.",
+      "tags": [
+        "react",
+        "animation",
+        "components"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "295992065",
+      "fullName": "tailwindlabs/headlessui",
+      "owner": "tailwindlabs",
+      "url": "https://github.com/tailwindlabs/headlessui",
+      "avatarUrl": "https://github.com/tailwindlabs.png?size=96",
+      "note": "Tailwind 的无样式组件库.",
+      "tags": [
+        "components",
+        "accessibility",
+        "tailwind"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "316012819",
+      "fullName": "radix-ui/website",
+      "owner": "radix-ui",
+      "url": "https://github.com/radix-ui/website",
+      "avatarUrl": "https://github.com/radix-ui.png?size=96",
+      "note": "Radix 官网和文档站源码, 几乎最出名的 React 无样式组件库, 经常和 shadcn 捆绑.",
+      "tags": [
+        "radix",
+        "docs",
+        "design-system"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "585146387",
+      "fullName": "shadcn-ui/ui",
+      "owner": "shadcn-ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "avatarUrl": "https://github.com/shadcn-ui.png?size=96",
+      "note": "最出名的 React 组件库, 样式其实是由 Tailwind 负责的, 无样式组件也来自于 Radix.",
+      "tags": [
+        "components",
+        "shadcn",
+        "react"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "744296994",
+      "fullName": "outerbase/studio",
+      "owner": "outerbase",
+      "url": "https://github.com/outerbase/studio",
+      "avatarUrl": "https://github.com/outerbase.png?size=96",
+      "note": "在浏览器里看数据库的轻量化工具.",
+      "tags": [
+        "database",
+        "gui",
+        "browser"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "378310716",
+      "fullName": "logto-io/logto",
+      "owner": "logto-io",
+      "url": "https://github.com/logto-io/logto",
+      "avatarUrl": "https://github.com/logto-io.png?size=96",
+      "note": "开源身份认证底座.",
+      "tags": [
+        "auth",
+        "oauth",
+        "developer-tool"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "158927812",
+      "fullName": "lsd-rs/lsd",
+      "owner": "lsd-rs",
+      "url": "https://github.com/lsd-rs/lsd",
+      "avatarUrl": "https://github.com/lsd-rs.png?size=96",
+      "note": "给传统 ls 换了套现代皮肤的 Rust CLI, 图标, 配色和信息密度都更舒服.",
+      "tags": [
+        "rust",
+        "cli",
+        "terminal"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "1031059905",
+      "fullName": "abhigyanpatwari/GitNexus",
+      "owner": "abhigyanpatwari",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "avatarUrl": "https://github.com/abhigyanpatwari.png?size=96",
+      "note": "类似于 codegraph, 把一个仓库写成知识图谱, 可以给人和 agent 看.",
+      "tags": [
+        "codegraph",
+        "knowledge-graph",
+        "agent"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "299354207",
+      "fullName": "rustdesk/rustdesk",
+      "owner": "rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "avatarUrl": "https://github.com/rustdesk.png?size=96",
+      "note": "最好用的远程方案, 可以自建服务器",
+      "tags": [
+        "remote-desktop",
+        "self-hosted",
+        "ops"
+      ],
+      "category": "Infrastructure",
+      "categorySlug": "infrastructure"
+    },
+    {
+      "id": "bannedbook/fanqiang",
+      "fullName": "bannedbook/fanqiang",
+      "owner": "bannedbook",
+      "url": "https://github.com/bannedbook/fanqiang",
+      "avatarUrl": "https://github.com/bannedbook.png?size=96",
+      "note": "科学上网资料和工具集合.",
+      "tags": [
+        "proxy",
+        "network",
+        "censorship"
+      ],
+      "category": "Infrastructure",
+      "categorySlug": "infrastructure"
+    },
+    {
+      "id": "1162727816",
+      "fullName": "srizzon/git-city",
+      "owner": "srizzon",
+      "url": "https://github.com/srizzon/git-city",
+      "avatarUrl": "https://github.com/srizzon.png?size=96",
+      "note": "把 GitHub 的仓库给可视化成城市, 让你看到贡献 commit 等等, 展示为楼层高度, 亮度等信息",
+      "tags": [
+        "github",
+        "3d",
+        "visualization"
+      ],
+      "category": "Visualisation",
+      "categorySlug": "visualisation"
+    },
+    {
+      "id": "1136975697",
+      "fullName": "Nearcyan/vibecraft",
+      "owner": "Nearcyan",
+      "url": "https://github.com/Nearcyan/vibecraft",
+      "avatarUrl": "https://github.com/Nearcyan.png?size=96",
+      "note": "Agent 可视化, 特点是蜂窝状, 每个蜂窝像一个办公室",
+      "tags": [
+        "agent",
+        "workflow",
+        "visualization"
+      ],
+      "category": "Visualisation",
+      "categorySlug": "visualisation"
+    },
+    {
+      "id": "1195786872",
+      "fullName": "operoncao123/agent-foreman",
+      "owner": "operoncao123",
+      "url": "https://github.com/operoncao123/agent-foreman",
+      "avatarUrl": "https://github.com/operoncao123.png?size=96",
+      "note": "牛马监工平台, 可视化查看三只牛马状态",
+      "tags": [
+        "agent",
+        "monitoring",
+        "dashboard"
+      ],
+      "category": "Visualisation",
+      "categorySlug": "visualisation"
+    },
+    {
+      "id": "1191737450",
+      "fullName": "opencroc/cube-pets-office",
+      "owner": "opencroc",
+      "url": "https://github.com/opencroc/cube-pets-office",
+      "avatarUrl": "https://github.com/opencroc.png?size=96",
+      "note": "把 OpenClaw 可视化成像素办公室",
+      "tags": [
+        "openclaw",
+        "workflow",
+        "visualization"
+      ],
+      "category": "Visualisation",
+      "categorySlug": "visualisation"
+    },
+    {
+      "id": "683892956",
+      "fullName": "OpenBMB/ChatDev",
+      "owner": "OpenBMB",
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "avatarUrl": "https://github.com/OpenBMB.png?size=96",
+      "note": "多 agents 的协作工作流可视化",
+      "tags": [
+        "multi-agent",
+        "software-dev",
+        "llm"
+      ],
+      "category": "Visualisation",
+      "categorySlug": "visualisation"
+    },
+    {
+      "id": "997737944",
+      "fullName": "ruvnet/RuView",
+      "owner": "ruvnet",
+      "url": "https://github.com/ruvnet/RuView",
+      "avatarUrl": "https://github.com/ruvnet.png?size=96",
+      "note": "用 WiFi 信号做姿态估计和生命体征感知",
+      "tags": [
+        "sensing",
+        "pose-estimation",
+        "wifi"
+      ],
+      "category": "Visualisation",
+      "categorySlug": "visualisation"
+    },
+    {
+      "id": "520955562",
+      "fullName": "motion-canvas/motion-canvas",
+      "owner": "motion-canvas",
+      "url": "https://github.com/motion-canvas/motion-canvas",
+      "avatarUrl": "https://github.com/motion-canvas.png?size=96",
+      "note": "用代码做动画和演示",
+      "tags": [
+        "animation",
+        "presentation",
+        "typescript"
+      ],
+      "category": "Visualisation",
+      "categorySlug": "visualisation"
+    },
+    {
+      "id": "32689863",
+      "fullName": "3b1b/manim",
+      "owner": "3b1b",
+      "url": "https://github.com/3b1b/manim",
+      "avatarUrl": "https://github.com/3b1b.png?size=96",
+      "note": "3b1b 的动画引擎, 基于 python",
+      "tags": [
+        "math",
+        "animation",
+        "python"
+      ],
+      "category": "Visualisation",
+      "categorySlug": "visualisation"
+    },
+    {
+      "id": "ManimCommunity/manim",
+      "fullName": "ManimCommunity/manim",
+      "owner": "ManimCommunity",
+      "url": "https://github.com/ManimCommunity/manim",
+      "avatarUrl": "https://github.com/ManimCommunity.png?size=96",
+      "note": "大名鼎鼎的 Manim, 三蓝一棕的动画编写 Python 包.",
+      "tags": [
+        "manim",
+        "math",
+        "animation"
+      ],
+      "category": "Visualisation",
+      "categorySlug": "visualisation"
+    },
+    {
+      "id": "274495425",
+      "fullName": "remotion-dev/remotion",
+      "owner": "remotion-dev",
+      "url": "https://github.com/remotion-dev/remotion",
+      "avatarUrl": "https://github.com/remotion-dev.png?size=96",
+      "note": "代码写 React",
+      "tags": [
+        "react",
+        "video",
+        "rendering"
+      ],
+      "category": "Visualisation",
+      "categorySlug": "visualisation"
+    },
+    {
+      "id": "163348528",
+      "fullName": "varkor/quiver",
+      "owner": "varkor",
+      "url": "https://github.com/varkor/quiver",
+      "avatarUrl": "https://github.com/varkor.png?size=96",
+      "note": "网页画图生成 tikz",
+      "tags": [
+        "diagram",
+        "editor",
+        "web"
+      ],
+      "category": "Visualisation",
+      "categorySlug": "visualisation"
+    },
+    {
+      "id": "162998479",
+      "fullName": "sherlock-project/sherlock",
+      "owner": "sherlock-project",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "avatarUrl": "https://github.com/sherlock-project.png?size=96",
+      "note": "社工开盒",
+      "tags": [
+        "osint",
+        "username",
+        "reconnaissance"
+      ],
+      "category": "Security",
+      "categorySlug": "security"
+    },
+    {
+      "id": "soxoj/maigret",
+      "fullName": "soxoj/maigret",
+      "owner": "soxoj",
+      "url": "https://github.com/soxoj/maigret",
+      "avatarUrl": "https://github.com/soxoj.png?size=96",
+      "note": "用用户名全网开盒搜索工具, 对国内平台支持一般.",
+      "tags": [
+        "osint",
+        "username",
+        "reconnaissance"
+      ],
+      "category": "Security",
+      "categorySlug": "security"
+    },
+    {
+      "id": "guofei9987/blind_watermark",
+      "fullName": "guofei9987/blind_watermark",
+      "owner": "guofei9987",
+      "url": "https://github.com/guofei9987/blind_watermark",
+      "avatarUrl": "https://github.com/guofei9987.png?size=96",
+      "note": "在图片里打隐藏信息的工具, 非常强, 可以做陷阱和取证.",
+      "tags": [
+        "watermark",
+        "steganography",
+        "image"
+      ],
+      "category": "Security",
+      "categorySlug": "security"
+    },
+    {
+      "id": "Z4nzu/hackingtool",
+      "fullName": "Z4nzu/hackingtool",
+      "owner": "Z4nzu",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "avatarUrl": "https://github.com/Z4nzu.png?size=96",
+      "note": "一站式黑客工具箱, 具体有什么得详细看.",
+      "tags": [
+        "hacking",
+        "pentest",
+        "toolkit"
+      ],
+      "category": "Security",
+      "categorySlug": "security"
+    },
+    {
+      "id": "471226425",
+      "fullName": "MaaEnd/MaaEnd",
+      "owner": "MaaEnd",
+      "url": "https://github.com/MaaEnd/MaaEnd",
+      "avatarUrl": "https://github.com/MaaEnd.png?size=96",
+      "note": "终末地 MA",
+      "tags": [
+        "game-tools",
+        "automation",
+        "arknights"
+      ],
+      "category": "GameDev",
+      "categorySlug": "gamedev"
+    },
+    {
+      "id": "877421626",
+      "fullName": "bocai-bca/chat_bubble_simulator",
+      "owner": "bocai-bca",
+      "url": "https://github.com/bocai-bca/chat_bubble_simulator",
+      "avatarUrl": "https://github.com/bocai-bca.png?size=96",
+      "note": "用 Godot4 模拟聊天气泡视觉效果",
+      "tags": [
+        "godot",
+        "ui-simulation",
+        "moviemaker"
+      ],
+      "category": "GameDev",
+      "categorySlug": "gamedev"
+    },
+    {
+      "id": "godotengine/godot",
+      "fullName": "godotengine/godot",
+      "owner": "godotengine",
+      "url": "https://github.com/godotengine/godot",
+      "avatarUrl": "https://github.com/godotengine.png?size=96",
+      "note": "Godot 游戏引擎, 开源游戏开发绕不开的一座大山.",
+      "tags": [
+        "game-engine",
+        "godot",
+        "gamedev"
+      ],
+      "category": "GameDev",
+      "categorySlug": "gamedev"
+    },
+    {
+      "id": "21737465",
+      "fullName": "sindresorhus/awesome",
+      "owner": "sindresorhus",
+      "url": "https://github.com/sindresorhus/awesome",
+      "avatarUrl": "https://github.com/sindresorhus.png?size=96",
+      "note": "Awesome 列表总入口",
+      "tags": [
+        "awesome-list",
+        "index",
+        "resources"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "60493101",
+      "fullName": "jwasham/coding-interview-university",
+      "owner": "jwasham",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "avatarUrl": "https://github.com/jwasham.png?size=96",
+      "note": "系统化的计算机科学学习路线",
+      "tags": [
+        "cs",
+        "roadmap",
+        "interview"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "81643361",
+      "fullName": "xiaohanyu/awesome-tikz",
+      "owner": "xiaohanyu",
+      "url": "https://github.com/xiaohanyu/awesome-tikz",
+      "avatarUrl": "https://github.com/xiaohanyu.png?size=96",
+      "note": "TikZ 资源索引",
+      "tags": [
+        "tikz",
+        "diagrams",
+        "resources"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "929611505",
+      "fullName": "armankhondker/awesome-ai-ml-resources",
+      "owner": "armankhondker",
+      "url": "https://github.com/armankhondker/awesome-ai-ml-resources",
+      "avatarUrl": "https://github.com/armankhondker.png?size=96",
+      "note": "AI/ML 学习路线与免费资源",
+      "tags": [
+        "ai-ml",
+        "roadmap",
+        "resources"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "1141704318",
+      "fullName": "VoltAgent/awesome-openclaw-skills",
+      "owner": "VoltAgent",
+      "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "avatarUrl": "https://github.com/VoltAgent.png?size=96",
+      "note": "OpenClaw skills 大型索引表",
+      "tags": [
+        "openclaw",
+        "skills",
+        "awesome-list"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "1197029054",
+      "fullName": "sanbuphy/learn-coding-agent",
+      "owner": "sanbuphy",
+      "url": "https://github.com/sanbuphy/learn-coding-agent",
+      "avatarUrl": "https://github.com/sanbuphy.png?size=96",
+      "note": "学 agent 的原理",
+      "tags": [
+        "coding-agent",
+        "research",
+        "notes"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "1102903896",
+      "fullName": "huggingface/skills",
+      "owner": "huggingface",
+      "url": "https://github.com/huggingface/skills",
+      "avatarUrl": "https://github.com/huggingface.png?size=96",
+      "note": "让 agents 接入 Hugging Face 的 skill 层",
+      "tags": [
+        "huggingface",
+        "agents",
+        "skills"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "1117639997",
+      "fullName": "agentskills/agentskills",
+      "owner": "agentskills",
+      "url": "https://github.com/agentskills/agentskills",
+      "avatarUrl": "https://github.com/agentskills.png?size=96",
+      "note": "Agent Skills 的定义规范与文档",
+      "tags": [
+        "specification",
+        "skills",
+        "docs"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization",
+      "fullName": "Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization",
+      "owner": "Visualize-ML",
+      "url": "https://github.com/Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization",
+      "avatarUrl": "https://github.com/Visualize-ML.png?size=96",
+      "note": "鸢尾花的线性代数不难.",
+      "tags": [
+        "linear-algebra",
+        "python",
+        "visualization"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "Visualize-ML/Book1_Python-For-Beginners",
+      "fullName": "Visualize-ML/Book1_Python-For-Beginners",
+      "owner": "Visualize-ML",
+      "url": "https://github.com/Visualize-ML/Book1_Python-For-Beginners",
+      "avatarUrl": "https://github.com/Visualize-ML.png?size=96",
+      "note": "鸢尾花的 Python 不难.",
+      "tags": [
+        "python",
+        "beginner",
+        "education"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "806315903",
+      "fullName": "karpathy/LLM101n",
+      "owner": "karpathy",
+      "url": "https://github.com/karpathy/LLM101n",
+      "avatarUrl": "https://github.com/karpathy.png?size=96",
+      "note": "Karpathy 的 LLM 教学仓库, 他创立的神秘组织 Eureka Labs 在负责.",
+      "tags": [
+        "llm",
+        "course",
+        "karpathy"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "93558276",
+      "fullName": "alexpate/awesome-design-systems",
+      "owner": "alexpate",
+      "url": "https://github.com/alexpate/awesome-design-systems",
+      "avatarUrl": "https://github.com/alexpate.png?size=96",
+      "note": "好的设计的大合集, 有很多成熟的设计方案, 可以来参考, 比如某某大学的, 某某大公司的.",
+      "tags": [
+        "design-system",
+        "awesome-list",
+        "ui"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "366474401",
+      "fullName": "TakWolf/ark-pixel-font",
+      "owner": "TakWolf",
+      "url": "https://github.com/TakWolf/ark-pixel-font",
+      "avatarUrl": "https://github.com/TakWolf.png?size=96",
+      "note": "开源的泛中日韩像素字体, 黑体风格",
+      "tags": [
+        "font",
+        "pixel",
+        "cjk"
+      ],
+      "category": "Assests and Resources",
+      "categorySlug": "assests-and-resources"
+    },
+    {
+      "id": "799619635",
+      "fullName": "AnMnv/latex-skill-icons",
+      "owner": "AnMnv",
+      "url": "https://github.com/AnMnv/latex-skill-icons",
+      "avatarUrl": "https://github.com/AnMnv.png?size=96",
+      "note": "LaTeX 里的 skill 图标资源",
+      "tags": [
+        "latex",
+        "icons",
+        "assets"
+      ],
+      "category": "Assests and Resources",
+      "categorySlug": "assests-and-resources"
+    },
+    {
+      "id": "270722949",
+      "fullName": "lucide-icons/lucide",
+      "owner": "lucide-icons",
+      "url": "https://github.com/lucide-icons/lucide",
+      "avatarUrl": "https://github.com/lucide-icons.png?size=96",
+      "note": "开源图标库, 很简洁",
+      "tags": [
+        "icons",
+        "frontend",
+        "design-system"
+      ],
+      "category": "Assests and Resources",
+      "categorySlug": "assests-and-resources"
+    },
+    {
+      "id": "508131663",
+      "fullName": "hehonghui/awesome-english-ebooks",
+      "owner": "hehonghui",
+      "url": "https://github.com/hehonghui/awesome-english-ebooks",
+      "avatarUrl": "https://github.com/hehonghui.png?size=96",
+      "note": "经济学人, 纽约客外刊原文",
+      "tags": [
+        "english",
+        "ebooks",
+        "reading"
+      ],
+      "category": "Assests and Resources",
+      "categorySlug": "assests-and-resources"
+    },
+    {
+      "id": "231865705",
+      "fullName": "TapXWorld/ChinaTextbook",
+      "owner": "TapXWorld",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "avatarUrl": "https://github.com/TapXWorld.png?size=96",
+      "note": "人教教材",
+      "tags": [
+        "textbooks",
+        "education",
+        "pdf"
+      ],
+      "category": "Assests and Resources",
+      "categorySlug": "assests-and-resources"
+    },
+    {
+      "id": "470222777",
+      "fullName": "TakWolf/fusion-pixel-font",
+      "owner": "TakWolf",
+      "url": "https://github.com/TakWolf/fusion-pixel-font",
+      "avatarUrl": "https://github.com/TakWolf.png?size=96",
+      "note": "开源泛中日韩像素字体",
+      "tags": [
+        "font",
+        "pixel",
+        "cjk"
+      ],
+      "category": "Assests and Resources",
+      "categorySlug": "assests-and-resources"
+    },
+    {
+      "id": "564785929",
+      "fullName": "atelier-anchor/smiley-sans",
+      "owner": "atelier-anchor",
+      "url": "https://github.com/atelier-anchor/smiley-sans",
+      "avatarUrl": "https://github.com/atelier-anchor.png?size=96",
+      "note": "得意黑中文字体 ooo 老师力作",
+      "tags": [
+        "font",
+        "typography",
+        "chinese"
+      ],
+      "category": "Assests and Resources",
+      "categorySlug": "assests-and-resources"
+    }
+  ],
+  "tags": [
+    {
+      "name": "workflow",
+      "count": 7
+    },
+    {
+      "name": "openclaw",
+      "count": 6
+    },
+    {
+      "name": "skills",
+      "count": 6
+    },
+    {
+      "name": "cli",
+      "count": 5
+    },
+    {
+      "name": "agent",
+      "count": 4
+    },
+    {
+      "name": "agents",
+      "count": 4
+    },
+    {
+      "name": "animation",
+      "count": 4
+    },
+    {
+      "name": "awesome-list",
+      "count": 4
+    },
+    {
+      "name": "components",
+      "count": 4
+    },
+    {
+      "name": "design-system",
+      "count": 4
+    },
+    {
+      "name": "latex",
+      "count": 4
+    },
+    {
+      "name": "visualization",
+      "count": 4
+    },
+    {
+      "name": "automation",
+      "count": 3
+    },
+    {
+      "name": "coding-agent",
+      "count": 3
+    },
+    {
+      "name": "education",
+      "count": 3
+    },
+    {
+      "name": "font",
+      "count": 3
+    },
+    {
+      "name": "math",
+      "count": 3
+    },
+    {
+      "name": "multi-agent",
+      "count": 3
+    },
+    {
+      "name": "python",
+      "count": 3
+    },
+    {
+      "name": "react",
+      "count": 3
+    },
+    {
+      "name": "resources",
+      "count": 3
+    },
+    {
+      "name": "ai-agent",
+      "count": 2
+    },
+    {
+      "name": "cjk",
+      "count": 2
+    },
+    {
+      "name": "dashboard",
+      "count": 2
+    },
+    {
+      "name": "design-md",
+      "count": 2
+    },
+    {
+      "name": "desktop",
+      "count": 2
+    },
+    {
+      "name": "docs",
+      "count": 2
+    },
+    {
+      "name": "finance",
+      "count": 2
+    },
+    {
+      "name": "frontend",
+      "count": 2
+    },
+    {
+      "name": "godot",
+      "count": 2
+    },
+    {
+      "name": "harness",
+      "count": 2
+    },
+    {
+      "name": "icons",
+      "count": 2
+    },
+    {
+      "name": "integration",
+      "count": 2
+    },
+    {
+      "name": "karpathy",
+      "count": 2
+    },
+    {
+      "name": "llm",
+      "count": 2
+    },
+    {
+      "name": "manim",
+      "count": 2
+    },
+    {
+      "name": "notes",
+      "count": 2
+    },
+    {
+      "name": "orchestration",
+      "count": 2
+    },
+    {
+      "name": "osint",
+      "count": 2
+    },
+    {
+      "name": "pdf",
+      "count": 2
+    },
+    {
+      "name": "pixel",
+      "count": 2
+    },
+    {
+      "name": "rag",
+      "count": 2
+    },
+    {
+      "name": "realtime",
+      "count": 2
+    },
+    {
+      "name": "reconnaissance",
+      "count": 2
+    },
+    {
+      "name": "rendering",
+      "count": 2
+    },
+    {
+      "name": "research",
+      "count": 2
+    },
+    {
+      "name": "roadmap",
+      "count": 2
+    },
+    {
+      "name": "rust",
+      "count": 2
+    },
+    {
+      "name": "self-hosted",
+      "count": 2
+    },
+    {
+      "name": "shadcn",
+      "count": 2
+    },
+    {
+      "name": "skill",
+      "count": 2
+    },
+    {
+      "name": "speech",
+      "count": 2
+    },
+    {
+      "name": "tailwind",
+      "count": 2
+    },
+    {
+      "name": "templates",
+      "count": 2
+    },
+    {
+      "name": "terminal",
+      "count": 2
+    },
+    {
+      "name": "tts",
+      "count": 2
+    },
+    {
+      "name": "typography",
+      "count": 2
+    },
+    {
+      "name": "username",
+      "count": 2
+    },
+    {
+      "name": "video",
+      "count": 2
+    },
+    {
+      "name": "3d",
+      "count": 1
+    },
+    {
+      "name": "accessibility",
+      "count": 1
+    },
+    {
+      "name": "agent-native",
+      "count": 1
+    },
+    {
+      "name": "ai",
+      "count": 1
+    },
+    {
+      "name": "ai-accounts",
+      "count": 1
+    },
+    {
+      "name": "ai-ml",
+      "count": 1
+    },
+    {
+      "name": "ai-skill",
+      "count": 1
+    },
+    {
+      "name": "ai-video",
+      "count": 1
+    },
+    {
+      "name": "aiot",
+      "count": 1
+    },
+    {
+      "name": "annotation",
+      "count": 1
+    },
+    {
+      "name": "api",
+      "count": 1
+    },
+    {
+      "name": "app-builder",
+      "count": 1
+    },
+    {
+      "name": "arknights",
+      "count": 1
+    },
+    {
+      "name": "asr",
+      "count": 1
+    },
+    {
+      "name": "assets",
+      "count": 1
+    },
+    {
+      "name": "assistant",
+      "count": 1
+    },
+    {
+      "name": "auth",
+      "count": 1
+    },
+    {
+      "name": "autonomous-agent",
+      "count": 1
+    },
+    {
+      "name": "beginner",
+      "count": 1
+    },
+    {
+      "name": "bloomberg",
+      "count": 1
+    },
+    {
+      "name": "browser",
+      "count": 1
+    },
+    {
+      "name": "censorship",
+      "count": 1
+    },
+    {
+      "name": "chinese",
+      "count": 1
+    },
+    {
+      "name": "classroom",
+      "count": 1
+    },
+    {
+      "name": "claude-code",
+      "count": 1
+    },
+    {
+      "name": "codegraph",
+      "count": 1
+    },
+    {
+      "name": "codex",
+      "count": 1
+    },
+    {
+      "name": "companion",
+      "count": 1
+    },
+    {
+      "name": "course",
+      "count": 1
+    },
+    {
+      "name": "cs",
+      "count": 1
+    },
+    {
+      "name": "cv",
+      "count": 1
+    },
+    {
+      "name": "database",
+      "count": 1
+    },
+    {
+      "name": "dataset",
+      "count": 1
+    },
+    {
+      "name": "design",
+      "count": 1
+    },
+    {
+      "name": "developer-tool",
+      "count": 1
+    },
+    {
+      "name": "diagram",
+      "count": 1
+    },
+    {
+      "name": "diagrams",
+      "count": 1
+    },
+    {
+      "name": "digital-life",
+      "count": 1
+    },
+    {
+      "name": "documentation",
+      "count": 1
+    },
+    {
+      "name": "downloader",
+      "count": 1
+    },
+    {
+      "name": "ebooks",
+      "count": 1
+    },
+    {
+      "name": "editor",
+      "count": 1
+    },
+    {
+      "name": "embedded",
+      "count": 1
+    },
+    {
+      "name": "english",
+      "count": 1
+    },
+    {
+      "name": "extraction",
+      "count": 1
+    },
+    {
+      "name": "face-swap",
+      "count": 1
+    },
+    {
+      "name": "foundation-model",
+      "count": 1
+    },
+    {
+      "name": "game-engine",
+      "count": 1
+    },
+    {
+      "name": "game-tools",
+      "count": 1
+    },
+    {
+      "name": "gamedev",
+      "count": 1
+    },
+    {
+      "name": "git",
+      "count": 1
+    },
+    {
+      "name": "github",
+      "count": 1
+    },
+    {
+      "name": "gui",
+      "count": 1
+    },
+    {
+      "name": "hacking",
+      "count": 1
+    },
+    {
+      "name": "headless-browser",
+      "count": 1
+    },
+    {
+      "name": "hermes",
+      "count": 1
+    },
+    {
+      "name": "html",
+      "count": 1
+    },
+    {
+      "name": "huggingface",
+      "count": 1
+    },
+    {
+      "name": "humanizer",
+      "count": 1
+    },
+    {
+      "name": "image",
+      "count": 1
+    },
+    {
+      "name": "index",
+      "count": 1
+    },
+    {
+      "name": "interview",
+      "count": 1
+    },
+    {
+      "name": "knowledge-base",
+      "count": 1
+    },
+    {
+      "name": "knowledge-graph",
+      "count": 1
+    },
+    {
+      "name": "linear-algebra",
+      "count": 1
+    },
+    {
+      "name": "long-horizon",
+      "count": 1
+    },
+    {
+      "name": "low-code",
+      "count": 1
+    },
+    {
+      "name": "markdown",
+      "count": 1
+    },
+    {
+      "name": "mcp",
+      "count": 1
+    },
+    {
+      "name": "media",
+      "count": 1
+    },
+    {
+      "name": "memory",
+      "count": 1
+    },
+    {
+      "name": "methodology",
+      "count": 1
+    },
+    {
+      "name": "monitoring",
+      "count": 1
+    },
+    {
+      "name": "moviemaker",
+      "count": 1
+    },
+    {
+      "name": "multilingual",
+      "count": 1
+    },
+    {
+      "name": "network",
+      "count": 1
+    },
+    {
+      "name": "oauth",
+      "count": 1
+    },
+    {
+      "name": "ops",
+      "count": 1
+    },
+    {
+      "name": "parser",
+      "count": 1
+    },
+    {
+      "name": "patterns",
+      "count": 1
+    },
+    {
+      "name": "pentest",
+      "count": 1
+    },
+    {
+      "name": "planning",
+      "count": 1
+    },
+    {
+      "name": "platform",
+      "count": 1
+    },
+    {
+      "name": "pose-estimation",
+      "count": 1
+    },
+    {
+      "name": "prd",
+      "count": 1
+    },
+    {
+      "name": "prediction",
+      "count": 1
+    },
+    {
+      "name": "presentation",
+      "count": 1
+    },
+    {
+      "name": "prompts",
+      "count": 1
+    },
+    {
+      "name": "proxy",
+      "count": 1
+    },
+    {
+      "name": "radix",
+      "count": 1
+    },
+    {
+      "name": "reading",
+      "count": 1
+    },
+    {
+      "name": "reasoning-agent",
+      "count": 1
+    },
+    {
+      "name": "recording",
+      "count": 1
+    },
+    {
+      "name": "remote-desktop",
+      "count": 1
+    },
+    {
+      "name": "sandbox",
+      "count": 1
+    },
+    {
+      "name": "screen-recording",
+      "count": 1
+    },
+    {
+      "name": "screencast",
+      "count": 1
+    },
+    {
+      "name": "sensing",
+      "count": 1
+    },
+    {
+      "name": "simulation",
+      "count": 1
+    },
+    {
+      "name": "social-media",
+      "count": 1
+    },
+    {
+      "name": "software-dev",
+      "count": 1
+    },
+    {
+      "name": "spec",
+      "count": 1
+    },
+    {
+      "name": "specification",
+      "count": 1
+    },
+    {
+      "name": "steganography",
+      "count": 1
+    },
+    {
+      "name": "superagent",
+      "count": 1
+    },
+    {
+      "name": "teamwork",
+      "count": 1
+    },
+    {
+      "name": "textbooks",
+      "count": 1
+    },
+    {
+      "name": "theme-editor",
+      "count": 1
+    },
+    {
+      "name": "tikz",
+      "count": 1
+    },
+    {
+      "name": "time-series",
+      "count": 1
+    },
+    {
+      "name": "tooling",
+      "count": 1
+    },
+    {
+      "name": "toolkit",
+      "count": 1
+    },
+    {
+      "name": "trend-summary",
+      "count": 1
+    },
+    {
+      "name": "tutor",
+      "count": 1
+    },
+    {
+      "name": "typescript",
+      "count": 1
+    },
+    {
+      "name": "ui",
+      "count": 1
+    },
+    {
+      "name": "ui-simulation",
+      "count": 1
+    },
+    {
+      "name": "ui-ux",
+      "count": 1
+    },
+    {
+      "name": "unstructured-data",
+      "count": 1
+    },
+    {
+      "name": "vision",
+      "count": 1
+    },
+    {
+      "name": "watermark",
+      "count": 1
+    },
+    {
+      "name": "web",
+      "count": 1
+    },
+    {
+      "name": "wechat",
+      "count": 1
+    },
+    {
+      "name": "wifi",
+      "count": 1
+    },
+    {
+      "name": "writing",
+      "count": 1
+    },
+    {
+      "name": "xiaohongshu",
+      "count": 1
+    }
+  ]
+}
