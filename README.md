@@ -21,6 +21,8 @@
 
 | Repo | One-liner |
 |---|---|
+| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI "repo-id: 1181982220") | Make Any Website into CLI & Use your logged-in browser by AI agent. |
+| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach "repo-id: 1165277268") | Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. |
 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss "repo-id: 106017343") | A utility-first CSS framework for rapid UI development. |
 | [enjoyousedu25/edexcel-essay-marker](https://github.com/enjoyousedu25/edexcel-essay-marker "repo-id: 1170263089") | 待补充 |
 | _Empty_ | 已完成当前 Inbox 分类, 等待新 star 自动进入 |
