@@ -34,7 +34,10 @@ test("server-renders the complete repository atlas", async () => {
   assert.match(html, /<title>Kayn&#x27;s Choices<\/title>/i);
   assert.match(html, /Kayn(?:&#x27;|')s Choices/);
   assert.match(html, /95(?:<!-- -->|\s)*repositories/);
-  assert.match(html, /95(?:<!-- -->|\s)*results/);
+  assert.match(
+    html,
+    /<span class="count-swap">95<\/span>(?:<!-- -->|\s)*results/,
+  );
   assert.match(html, /Search repos, notes, or tags/);
   assert.match(html, /aria-label="Categories"/);
   assert.match(html, /666ghj\/MiroFish/);

@@ -8,12 +8,12 @@
   --green: #08722f;
   --green-dark: #055722;
   --green-soft: #edf7f0;
-  --blue: #1267d6;
-  --blue-soft: #f0f6ff;
   --coral: #e75b43;
   --focus: #0b67d1;
   --radius-small: 4px;
-  --radius: 6px;
+  --radius: 10px;
+  --motion-curve: cubic-bezier(0.2, 0, 0, 1);
+  view-transition-name: none;
 }
 
 * {
@@ -21,14 +21,14 @@
 }
 
 html {
-  background: var(--paper);
+  background: var(--paper-soft);
   color-scheme: light;
 }
 
 body {
   min-width: 320px;
   margin: 0;
-  background: var(--paper);
+  background: var(--paper-soft);
   color: var(--ink);
   font-family: var(--font-geist-sans), "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 15px;
@@ -52,6 +52,16 @@ button {
   cursor: pointer;
 }
 
+button,
+.icon-button {
+  transition: transform 120ms var(--motion-curve);
+}
+
+button:active,
+.icon-button:active {
+  transform: translateY(1px) scale(0.96);
+}
+
 a {
   color: inherit;
 }
@@ -59,6 +69,11 @@ a {
 :focus-visible {
   outline: 2px solid var(--focus);
   outline-offset: 2px;
+}
+
+::view-transition-group(*) {
+  animation-duration: 260ms;
+  animation-timing-function: var(--motion-curve);
 }
 
 .sr-only {
@@ -75,7 +90,7 @@ a {
 
 .atlas-shell {
   min-height: 100vh;
-  background: var(--paper);
+  background: var(--paper-soft);
 }
 
 .atlas-header {
@@ -83,7 +98,9 @@ a {
   top: 0;
   z-index: 20;
   border-bottom: 1px solid var(--border);
-  background: var(--paper);
+  background: rgb(255 255 255 / 0.82);
+  -webkit-backdrop-filter: blur(10px) saturate(1.8);
+  backdrop-filter: blur(10px) saturate(1.8);
 }
 
 .header-inner {
@@ -111,12 +128,17 @@ a {
 }
 
 .brand-title span {
-  color: var(--green);
+  background: linear-gradient(90deg, var(--green), #3fae63);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .brand-row p {
   margin: 0;
   color: var(--muted);
+  font-family: var(--font-geist-mono), monospace;
   font-size: 14px;
 }
 
@@ -251,9 +273,11 @@ a {
   left: -1px;
   width: 3px;
   border-radius: 0 2px 2px 0;
-  background: var(--coral);
+  background: var(--green);
   content: "";
-  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 200ms var(--motion-curve);
 }
 
 .category-button:hover {
@@ -268,8 +292,7 @@ a {
 }
 
 .category-button[data-selected="true"]::before {
-  background: var(--green);
-  opacity: 1;
+  transform: scaleY(1);
 }
 
 .category-label {
@@ -281,6 +304,7 @@ a {
 
 .category-count {
   color: var(--muted);
+  font-family: var(--font-geist-mono), monospace;
   font-variant-numeric: tabular-nums;
 }
 
@@ -312,6 +336,14 @@ a {
   justify-self: end;
 }
 
+.chevron {
+  transition: transform 180ms var(--motion-curve);
+}
+
+[aria-expanded="true"] .chevron {
+  transform: rotate(180deg);
+}
+
 .results-area {
   min-width: 0;
 }
@@ -334,6 +366,12 @@ a {
   font-size: 18px;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
+}
+
+.count-swap {
+  display: inline-block;
+  font-family: var(--font-geist-mono), monospace;
+  animation: count-in 200ms var(--motion-curve);
 }
 
 .clear-filters {
@@ -376,12 +414,14 @@ a {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--paper);
+  font-family: var(--font-geist-mono), monospace;
   font-size: 14px;
 }
 
 .tag-filter:hover {
-  border-color: var(--blue);
-  color: var(--blue);
+  border-color: var(--border-strong);
+  background: var(--paper-soft);
+  color: var(--ink);
 }
 
 .tag-filter[data-selected="true"] {
@@ -395,14 +435,30 @@ a {
   color: var(--muted);
 }
 
+.all-tags-wrap {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 280ms var(--motion-curve);
+}
+
+.all-tags-wrap[data-open="true"] {
+  grid-template-rows: 1fr;
+  margin-bottom: 18px;
+}
+
 .all-tags-panel {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 6px;
-  margin: 0 0 18px;
+  margin: 0;
   padding: 14px 0;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
+}
+
+.all-tags-wrap > .all-tags-clip {
+  min-height: 0;
+  overflow: hidden;
 }
 
 .all-tag-filter {
@@ -416,20 +472,21 @@ a {
   border: 1px solid transparent;
   border-radius: var(--radius-small);
   background: var(--paper-soft);
+  font-family: var(--font-geist-mono), monospace;
   font-size: 12px;
   text-align: left;
 }
 
 .all-tag-filter:hover {
-  border-color: #a8c8f2;
-  background: var(--blue-soft);
-  color: var(--blue);
+  border-color: var(--border-strong);
+  background: var(--paper);
+  color: var(--ink);
 }
 
 .all-tag-filter[data-selected="true"] {
-  border-color: var(--blue);
-  background: var(--blue-soft);
-  color: var(--blue);
+  border-color: var(--green);
+  background: var(--green-soft);
+  color: var(--green-dark);
   font-weight: 650;
 }
 
@@ -455,18 +512,27 @@ a {
 .repository-card {
   display: flex;
   min-width: 0;
-  min-height: 216px;
+  min-height: 180px;
   flex-direction: column;
   padding: 19px;
-  border: 1px solid var(--border);
+  border: 1px solid transparent;
   border-radius: var(--radius);
   background: var(--paper);
-  transition: border-color 160ms ease, transform 160ms ease;
+  box-shadow: 0 1px 2px rgb(17 22 19 / 5%),
+    0 12px 24px -16px rgb(17 22 19 / 10%);
+  transition: box-shadow 180ms var(--motion-curve),
+    transform 180ms var(--motion-curve);
 }
 
 .repository-card:hover {
-  border-color: var(--border-strong);
-  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgb(17 22 19 / 6%),
+    0 16px 32px -12px rgb(17 22 19 / 16%);
+  transform: translateY(-3px);
+}
+
+.atlas-shell[data-entering="true"] .repository-card {
+  animation: card-in 480ms var(--motion-curve) backwards;
+  animation-delay: calc(var(--card-index) * 35ms);
 }
 
 .repository-heading {
@@ -483,6 +549,12 @@ a {
   border-radius: 50%;
   background: var(--paper-soft);
   object-fit: cover;
+  opacity: 0;
+  transition: opacity 220ms var(--motion-curve);
+}
+
+.repository-avatar.is-loaded {
+  opacity: 1;
 }
 
 .repository-identity {
@@ -540,6 +612,14 @@ a {
   background: var(--green-soft);
 }
 
+.repository-external svg {
+  transition: transform 160ms var(--motion-curve);
+}
+
+.repository-card:hover .repository-external svg {
+  transform: translate(2px, -2px);
+}
+
 .repository-note {
   display: -webkit-box;
   min-width: 0;
@@ -550,7 +630,7 @@ a {
   line-height: 1.65;
   overflow-wrap: anywhere;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
 }
 
 .repository-tags {
@@ -565,10 +645,11 @@ a {
   min-height: 26px;
   padding: 2px 8px;
   overflow: hidden;
-  border: 1px solid #b9d4f6;
+  border: 1px solid oklch(82% 0.08 var(--cat-h));
   border-radius: var(--radius-small);
-  background: var(--blue-soft);
-  color: var(--blue);
+  background: oklch(96.5% 0.03 var(--cat-h));
+  color: oklch(38% 0.12 var(--cat-h));
+  font-family: var(--font-geist-mono), monospace;
   font-size: 12px;
   line-height: 1.25;
   text-overflow: ellipsis;
@@ -576,8 +657,32 @@ a {
 }
 
 .repository-tag:hover {
-  border-color: var(--blue);
-  background: #e4f0ff;
+  border-color: oklch(68% 0.12 var(--cat-h));
+  background: oklch(94% 0.05 var(--cat-h));
+}
+
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.985);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes count-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .empty-state {
@@ -721,7 +826,6 @@ a {
   }
 
   .repository-card {
-    min-height: 204px;
     padding: 15px;
   }
 
@@ -760,7 +864,29 @@ a {
   *,
   *::before,
   *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+
+  .atlas-shell[data-entering="true"] .repository-card,
+  .count-swap {
+    animation: none !important;
+  }
+
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+
+  button:active,
+  .icon-button:active,
+  .repository-card:hover,
+  .repository-card:hover .repository-external svg {
+    transform: none !important;
   }
 }

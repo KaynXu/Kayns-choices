@@ -24,9 +24,20 @@ import {
   X,
   type LucideIcon,
 } from "lucide-react";
-import { useEffect, useId, useMemo, useState } from "react";
+import {
+  type CSSProperties,
+  useEffect,
+  useId,
+  useMemo,
+  useState,
+} from "react";
+import { flushSync } from "react-dom";
 
 import { filterRepositories, readFilters, writeFilters } from "../lib/filters";
+import {
+  encodeViewTransitionName,
+  runFilterTransition,
+} from "../lib/filter-transition";
 import type {
   AtlasFilters,
   Category,
@@ -51,6 +62,26 @@ const categoryIcons: Record<string, LucideIcon> = {
   gamedev: Gamepad2,
   "learning-and-lists": ListTree,
   "assests-and-resources": FolderClosed,
+};
+
+const categoryHues: Record<string, number> = {
+  inbox: 145,
+  "ai-llm-agents": 305,
+  "ai-skills": 90,
+  "ai-harness": 265,
+  "ai-tools": 35,
+  "developer-tools": 240,
+  infrastructure: 210,
+  visualisation: 330,
+  security: 155,
+  gamedev: 20,
+  "learning-and-lists": 75,
+  "assests-and-resources": 190,
+};
+
+type RepositoryCardStyle = CSSProperties & {
+  "--card-index": number;
+  "--cat-h": number;
 };
 
 interface RepositoryAtlasProps {
@@ -90,25 +121,43 @@ function CategoryButton({
 
 interface RepositoryCardProps {
   repository: Repository;
+  index: number;
   onCategorySelect: (category: string) => void;
   onTagSelect: (tag: string) => void;
 }
 
 function RepositoryCard({
   repository,
+  index,
   onCategorySelect,
   onTagSelect,
 }: RepositoryCardProps) {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   return (
-    <article className="repository-card">
+    <article
+      className="repository-card"
+      style={
+        {
+          viewTransitionName: encodeViewTransitionName(repository.id),
+          "--card-index": Math.min(index, 12),
+          "--cat-h": categoryHues[repository.categorySlug] ?? 145,
+        } as RepositoryCardStyle
+      }
+    >
       <div className="repository-heading">
         <Image
-          className="repository-avatar"
+          className={
+            imageLoaded
+              ? "repository-avatar is-loaded"
+              : "repository-avatar"
+          }
           src={repository.avatarUrl}
           alt=""
           width={48}
           height={48}
           unoptimized
+          onLoad={() => setImageLoaded(true)}
         />
         <div className="repository-identity">
           <h2>
@@ -159,6 +208,7 @@ function RepositoryCard({
 export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
   const [filters, setFilters] = useState<AtlasFilters>(EMPTY_FILTERS);
   const [filtersReady, setFiltersReady] = useState(false);
+  const [hasInteracted, setHasInteracted] = useState(false);
   const [showAllTags, setShowAllTags] = useState(false);
   const allTagsId = useId();
   const validCategories = useMemo(
@@ -207,19 +257,27 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
     filters.category.length > 0 ||
     filters.tags.length > 0;
 
-  const updateFilters = (
+  const transitionFilters = (
     updater: (current: AtlasFilters) => AtlasFilters,
   ) => {
-    setFilters(updater);
-    scrollAtlasToTop();
+    runFilterTransition({
+      commit: () => {
+        setHasInteracted(true);
+        setFilters(updater);
+      },
+      scroll: scrollAtlasToTop,
+      flush: flushSync,
+      start: document.startViewTransition?.bind(document),
+      reducedMotion: window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+    });
   };
 
   const selectCategory = (category: string) => {
-    updateFilters((current) => ({ ...current, category }));
+    transitionFilters((current) => ({ ...current, category }));
   };
 
   const toggleTag = (tag: string) => {
-    updateFilters((current) => ({
+    transitionFilters((current) => ({
       ...current,
       tags: current.tags.includes(tag)
         ? current.tags.filter((selectedTag) => selectedTag !== tag)
@@ -227,7 +285,7 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
     }));
   };
 
-  const clearFilters = () => updateFilters(() => EMPTY_FILTERS);
+  const clearFilters = () => transitionFilters(() => EMPTY_FILTERS);
 
   const categoryNavigation = (
     <>
@@ -249,7 +307,10 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
   );
 
   return (
-    <div className="atlas-shell">
+    <div
+      className="atlas-shell"
+      data-entering={filtersReady && !hasInteracted}
+    >
       <header className="atlas-header">
         <div className="header-inner">
           <div className="brand-row">
@@ -266,12 +327,13 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
               <input
                 type="search"
                 value={filters.query}
-                onChange={(event) =>
-                  updateFilters((current) => ({
+                onChange={(event) => {
+                  setHasInteracted(true);
+                  setFilters((current) => ({
                     ...current,
                     query: event.target.value,
-                  }))
-                }
+                  }));
+                }}
                 placeholder="Search repos, notes, or tags"
                 autoComplete="off"
               />
@@ -279,9 +341,10 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
                 <button
                   className="search-clear"
                   type="button"
-                  onClick={() =>
-                    updateFilters((current) => ({ ...current, query: "" }))
-                  }
+                  onClick={() => {
+                    setHasInteracted(true);
+                    setFilters((current) => ({ ...current, query: "" }));
+                  }}
                   aria-label="Clear search"
                   title="Clear search"
                 >
@@ -316,7 +379,12 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
           >
             <Tag aria-hidden="true" size={17} strokeWidth={1.8} />
             <span>All tags</span>
-            <ChevronDown aria-hidden="true" size={17} strokeWidth={1.8} />
+            <ChevronDown
+              className="chevron"
+              aria-hidden="true"
+              size={17}
+              strokeWidth={1.8}
+            />
           </button>
         </aside>
 
@@ -327,7 +395,10 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
 
           <div className="results-toolbar">
             <p className="results-count" aria-live="polite">
-              {repositories.length} {repositories.length === 1 ? "result" : "results"}
+              <span key={repositories.length} className="count-swap">
+                {repositories.length}
+              </span>{" "}
+              {repositories.length === 1 ? "result" : "results"}
             </p>
             {hasFilters ? (
               <button className="clear-filters" type="button" onClick={clearFilters}>
@@ -343,7 +414,7 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
               data-selected={filters.tags.length === 0}
               type="button"
               onClick={() =>
-                updateFilters((current) => ({ ...current, tags: [] }))
+                transitionFilters((current) => ({ ...current, tags: [] }))
               }
               aria-pressed={filters.tags.length === 0}
             >
@@ -369,33 +440,42 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
               onClick={() => setShowAllTags((visible) => !visible)}
             >
               +{Math.max(atlas.tags.length - POPULAR_TAG_COUNT, 0)}
-              <ChevronDown aria-hidden="true" size={14} />
+              <ChevronDown className="chevron" aria-hidden="true" size={14} />
             </button>
           </div>
 
-          {showAllTags ? (
-            <section className="all-tags-panel" id={allTagsId} aria-label="All tags">
-              {atlas.tags.map((tag) => (
-                <button
-                  className="all-tag-filter"
-                  data-selected={filters.tags.includes(tag.name)}
-                  type="button"
-                  onClick={() => toggleTag(tag.name)}
-                  aria-pressed={filters.tags.includes(tag.name)}
-                  key={tag.name}
-                >
-                  <span>{tag.name}</span>
-                  <span>{tag.count}</span>
-                </button>
-              ))}
-            </section>
-          ) : null}
+          <div className="all-tags-wrap" data-open={showAllTags}>
+            <div className="all-tags-clip">
+              <section
+                className="all-tags-panel"
+                id={allTagsId}
+                aria-label="All tags"
+                aria-hidden={!showAllTags}
+                inert={!showAllTags}
+              >
+                {atlas.tags.map((tag) => (
+                  <button
+                    className="all-tag-filter"
+                    data-selected={filters.tags.includes(tag.name)}
+                    type="button"
+                    onClick={() => toggleTag(tag.name)}
+                    aria-pressed={filters.tags.includes(tag.name)}
+                    key={tag.name}
+                  >
+                    <span>{tag.name}</span>
+                    <span>{tag.count}</span>
+                  </button>
+                ))}
+              </section>
+            </div>
+          </div>
 
           {repositories.length > 0 ? (
             <section className="repository-grid" aria-label="Repositories">
-              {repositories.map((repository) => (
+              {repositories.map((repository, index) => (
                 <RepositoryCard
                   repository={repository}
+                  index={index}
                   onCategorySelect={selectCategory}
                   onTagSelect={toggleTag}
                   key={repository.id}
