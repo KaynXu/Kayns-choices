@@ -94,6 +94,22 @@ test("rejects duplicate repositories across categories", () => {
   );
 });
 
+test("rejects duplicate repository IDs across renamed aliases", () => {
+  const markdown = `${VALID_MARKDOWN}
+
+## Visualisation
+
+| Repo | One-liner | Tags |
+|---|---|---|
+| [owner/renamed-tool](https://github.com/owner/renamed-tool "repo-id: 42") | Renamed duplicate | visualization |
+`;
+
+  assert.throws(
+    () => parseRepositoryAtlas(markdown),
+    /Duplicate repository ID: 42/,
+  );
+});
+
 test("rejects malformed repository rows", () => {
   const markdown = VALID_MARKDOWN.replace(
     "[owner/tool](https://github.com/owner/tool \"repo-id: 42\")",

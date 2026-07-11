@@ -31,12 +31,22 @@ test("server-renders the complete repository atlas", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
+  const generatedAtlas = JSON.parse(
+    await readFile(new URL("../app/data/repos.generated.json", import.meta.url), "utf8"),
+  );
+  const repositoryCount = generatedAtlas.repositories.length;
+
   assert.match(html, /<title>Kayn&#x27;s Choices<\/title>/i);
   assert.match(html, /Kayn(?:&#x27;|')s Choices/);
-  assert.match(html, /95(?:<!-- -->|\s)*repositories/);
   assert.match(
     html,
-    /<span class="count-swap">95<\/span>(?:<!-- -->|\s)*results/,
+    new RegExp(`${repositoryCount}(?:<!-- -->|\\s)*repositories`),
+  );
+  assert.match(
+    html,
+    new RegExp(
+      `<span class="count-swap">${repositoryCount}</span>(?:<!-- -->|\\s)*results`,
+    ),
   );
   assert.match(html, /Search repos, notes, or tags/);
   assert.match(html, /aria-label="Categories"/);

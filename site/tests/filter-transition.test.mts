@@ -41,8 +41,8 @@ test("encodes all generated repository IDs as legal unique names", () => {
   const repositoryIds = generatedAtlas.repositories.map(({ id }) => id);
   const encodedNames = repositoryIds.map(encodeViewTransitionName);
 
-  assert.equal(repositoryIds.length, 95);
-  assert.equal(repositoryIds.filter((id) => id.includes("/")).length, 21);
+  assert.ok(repositoryIds.length > 0);
+  assert.equal(new Set(repositoryIds).size, repositoryIds.length);
   assert.equal(new Set(encodedNames).size, encodedNames.length);
   for (const encodedName of encodedNames) {
     assert.match(encodedName, VIEW_TRANSITION_NAME);

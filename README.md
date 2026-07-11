@@ -134,7 +134,6 @@
 | [srizzon/git-city](https://github.com/srizzon/git-city "repo-id: 1162727816") | 把 GitHub 的仓库给可视化成城市, 让你看到贡献 commit 等等, 展示为楼层高度, 亮度等信息 | github, 3d, visualization |
 | [Nearcyan/vibecraft](https://github.com/Nearcyan/vibecraft "repo-id: 1136975697") | Agent 可视化, 特点是蜂窝状, 每个蜂窝像一个办公室 | agent, workflow, visualization |
 | [operoncao123/agent-foreman](https://github.com/operoncao123/agent-foreman "repo-id: 1195786872") | 牛马监工平台, 可视化查看三只牛马状态 | agent, monitoring, dashboard |
-| [opencroc/cube-pets-office](https://github.com/opencroc/cube-pets-office "repo-id: 1191737450") | 把 OpenClaw 可视化成像素办公室 | openclaw, workflow, visualization |
 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev "repo-id: 683892956") | 多 agents 的协作工作流可视化 | multi-agent, software-dev, llm |
 | [ruvnet/RuView](https://github.com/ruvnet/RuView "repo-id: 997737944") | 用 WiFi 信号做姿态估计和生命体征感知 | sensing, pose-estimation, wifi |
 | [motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas "repo-id: 520955562") | 用代码做动画和演示 | animation, presentation, typescript |

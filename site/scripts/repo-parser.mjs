@@ -104,7 +104,7 @@ function tableColumns(table, categoryName) {
   return Object.fromEntries(columns.map((column, index) => [column, index]));
 }
 
-function parseTable(table, category, seenRepositories) {
+function parseTable(table, category, seenRepositories, seenRepositoryIds) {
   const columns = tableColumns(table, category.name);
   const repositories = [];
 
@@ -129,11 +129,17 @@ function parseTable(table, category, seenRepositories) {
     seenRepositories.add(duplicateKey);
 
     const repoIdMatch = link.title?.match(/repo-id:\s*(\d+)/);
+    const repositoryId = repoIdMatch?.[1] ?? parsedLink.fullName;
+    if (seenRepositoryIds.has(repositoryId)) {
+      throw new Error(`Duplicate repository ID: ${repositoryId}`);
+    }
+    seenRepositoryIds.add(repositoryId);
+
     const noteCell = row.children[columns["One-liner"]];
     const tagsCell = columns.Tags === undefined ? null : row.children[columns.Tags];
 
     repositories.push({
-      id: repoIdMatch?.[1] ?? parsedLink.fullName,
+      id: repositoryId,
       fullName: parsedLink.fullName,
       owner: parsedLink.owner,
       url: parsedLink.url,
@@ -153,6 +159,7 @@ export function parseRepositoryAtlas(markdown) {
   const categories = [];
   const repositories = [];
   const seenRepositories = new Set();
+  const seenRepositoryIds = new Set();
 
   for (let index = 0; index < tree.children.length; index += 1) {
     const node = tree.children[index];
@@ -175,7 +182,12 @@ export function parseRepositoryAtlas(markdown) {
       }
 
       if (nextNode.type === "table") {
-        const parsedRepositories = parseTable(nextNode, category, seenRepositories);
+        const parsedRepositories = parseTable(
+          nextNode,
+          category,
+          seenRepositories,
+          seenRepositoryIds,
+        );
         category.count += parsedRepositories.length;
         repositories.push(...parsedRepositories);
         break;

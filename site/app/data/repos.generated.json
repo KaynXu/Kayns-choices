@@ -3,7 +3,7 @@
     {
       "name": "Inbox",
       "slug": "inbox",
-      "count": 0
+      "count": 2
     },
     {
       "name": "AI-LLM/Agents",
@@ -38,7 +38,7 @@
     {
       "name": "Visualisation",
       "slug": "visualisation",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Security",
@@ -62,6 +62,28 @@
     }
   ],
   "repositories": [
+    {
+      "id": "106017343",
+      "fullName": "tailwindlabs/tailwindcss",
+      "owner": "tailwindlabs",
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "avatarUrl": "https://github.com/tailwindlabs.png?size=96",
+      "note": "A utility-first CSS framework for rapid UI development.",
+      "tags": [],
+      "category": "Inbox",
+      "categorySlug": "inbox"
+    },
+    {
+      "id": "1170263089",
+      "fullName": "enjoyousedu25/edexcel-essay-marker",
+      "owner": "enjoyousedu25",
+      "url": "https://github.com/enjoyousedu25/edexcel-essay-marker",
+      "avatarUrl": "https://github.com/enjoyousedu25.png?size=96",
+      "note": "待补充",
+      "tags": [],
+      "category": "Inbox",
+      "categorySlug": "inbox"
+    },
     {
       "id": "1104332987",
       "fullName": "666ghj/MiroFish",
@@ -138,7 +160,7 @@
       "categorySlug": "ai-llm-agents"
     },
     {
-      "id": "xiaojilele-glitch/WhyBuddy",
+      "id": "1191737450",
       "fullName": "xiaojilele-glitch/WhyBuddy",
       "owner": "xiaojilele-glitch",
       "url": "https://github.com/xiaojilele-glitch/WhyBuddy",
@@ -258,7 +280,7 @@
       "categorySlug": "ai-skills"
     },
     {
-      "id": "titanwings/colleague-skill",
+      "id": "1195828337",
       "fullName": "titanwings/colleague-skill",
       "owner": "titanwings",
       "url": "https://github.com/titanwings/colleague-skill",
@@ -273,7 +295,7 @@
       "categorySlug": "ai-skills"
     },
     {
-      "id": "google-labs-code/design.md",
+      "id": "1207222725",
       "fullName": "google-labs-code/design.md",
       "owner": "google-labs-code",
       "url": "https://github.com/google-labs-code/design.md",
@@ -288,7 +310,7 @@
       "categorySlug": "ai-skills"
     },
     {
-      "id": "blader/humanizer",
+      "id": "1136666433",
       "fullName": "blader/humanizer",
       "owner": "blader",
       "url": "https://github.com/blader/humanizer",
@@ -303,7 +325,7 @@
       "categorySlug": "ai-skills"
     },
     {
-      "id": "multica-ai/andrej-karpathy-skills",
+      "id": "1142983825",
       "fullName": "multica-ai/andrej-karpathy-skills",
       "owner": "multica-ai",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
@@ -408,7 +430,7 @@
       "categorySlug": "ai-harness"
     },
     {
-      "id": "snarktank/ralph",
+      "id": "1129759677",
       "fullName": "snarktank/ralph",
       "owner": "snarktank",
       "url": "https://github.com/snarktank/ralph",
@@ -543,7 +565,7 @@
       "categorySlug": "ai-tools"
     },
     {
-      "id": "borawong/AiMaMi",
+      "id": "1201582091",
       "fullName": "borawong/AiMaMi",
       "owner": "borawong",
       "url": "https://github.com/borawong/AiMaMi",
@@ -558,7 +580,7 @@
       "categorySlug": "ai-tools"
     },
     {
-      "id": "tuya/TuyaOpen",
+      "id": "735469449",
       "fullName": "tuya/TuyaOpen",
       "owner": "tuya",
       "url": "https://github.com/tuya/TuyaOpen",
@@ -573,7 +595,7 @@
       "categorySlug": "ai-tools"
     },
     {
-      "id": "Fincept-Corporation/FinceptTerminal",
+      "id": "849406496",
       "fullName": "Fincept-Corporation/FinceptTerminal",
       "owner": "Fincept-Corporation",
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
@@ -633,7 +655,7 @@
       "categorySlug": "ai-tools"
     },
     {
-      "id": "Wing900/ManimCat",
+      "id": "1140286872",
       "fullName": "Wing900/ManimCat",
       "owner": "Wing900",
       "url": "https://github.com/Wing900/ManimCat",
@@ -723,7 +745,7 @@
       "categorySlug": "developer-tools"
     },
     {
-      "id": "KaTeX/KaTeX",
+      "id": "11195700",
       "fullName": "KaTeX/KaTeX",
       "owner": "KaTeX",
       "url": "https://github.com/KaTeX/KaTeX",
@@ -738,7 +760,7 @@
       "categorySlug": "developer-tools"
     },
     {
-      "id": "appsmithorg/appsmith",
+      "id": "275993885",
       "fullName": "appsmithorg/appsmith",
       "owner": "appsmithorg",
       "url": "https://github.com/appsmithorg/appsmith",
@@ -753,7 +775,7 @@
       "categorySlug": "developer-tools"
     },
     {
-      "id": "refactoringhq/tolaria",
+      "id": "1158096951",
       "fullName": "refactoringhq/tolaria",
       "owner": "refactoringhq",
       "url": "https://github.com/refactoringhq/tolaria",
@@ -918,7 +940,7 @@
       "categorySlug": "infrastructure"
     },
     {
-      "id": "bannedbook/fanqiang",
+      "id": "29219243",
       "fullName": "bannedbook/fanqiang",
       "owner": "bannedbook",
       "url": "https://github.com/bannedbook/fanqiang",
@@ -973,21 +995,6 @@
         "agent",
         "monitoring",
         "dashboard"
-      ],
-      "category": "Visualisation",
-      "categorySlug": "visualisation"
-    },
-    {
-      "id": "1191737450",
-      "fullName": "opencroc/cube-pets-office",
-      "owner": "opencroc",
-      "url": "https://github.com/opencroc/cube-pets-office",
-      "avatarUrl": "https://github.com/opencroc.png?size=96",
-      "note": "把 OpenClaw 可视化成像素办公室",
-      "tags": [
-        "openclaw",
-        "workflow",
-        "visualization"
       ],
       "category": "Visualisation",
       "categorySlug": "visualisation"
@@ -1053,7 +1060,7 @@
       "categorySlug": "visualisation"
     },
     {
-      "id": "ManimCommunity/manim",
+      "id": "265122478",
       "fullName": "ManimCommunity/manim",
       "owner": "ManimCommunity",
       "url": "https://github.com/ManimCommunity/manim",
@@ -1113,7 +1120,7 @@
       "categorySlug": "security"
     },
     {
-      "id": "soxoj/maigret",
+      "id": "275386910",
       "fullName": "soxoj/maigret",
       "owner": "soxoj",
       "url": "https://github.com/soxoj/maigret",
@@ -1128,7 +1135,7 @@
       "categorySlug": "security"
     },
     {
-      "id": "guofei9987/blind_watermark",
+      "id": "197206410",
       "fullName": "guofei9987/blind_watermark",
       "owner": "guofei9987",
       "url": "https://github.com/guofei9987/blind_watermark",
@@ -1143,7 +1150,7 @@
       "categorySlug": "security"
     },
     {
-      "id": "Z4nzu/hackingtool",
+      "id": "254832799",
       "fullName": "Z4nzu/hackingtool",
       "owner": "Z4nzu",
       "url": "https://github.com/Z4nzu/hackingtool",
@@ -1188,7 +1195,7 @@
       "categorySlug": "gamedev"
     },
     {
-      "id": "godotengine/godot",
+      "id": "15634981",
       "fullName": "godotengine/godot",
       "owner": "godotengine",
       "url": "https://github.com/godotengine/godot",
@@ -1323,7 +1330,7 @@
       "categorySlug": "learning-and-lists"
     },
     {
-      "id": "Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization",
+      "id": "943377535",
       "fullName": "Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization",
       "owner": "Visualize-ML",
       "url": "https://github.com/Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization",
@@ -1338,7 +1345,7 @@
       "categorySlug": "learning-and-lists"
     },
     {
-      "id": "Visualize-ML/Book1_Python-For-Beginners",
+      "id": "567354870",
       "fullName": "Visualize-ML/Book1_Python-For-Beginners",
       "owner": "Visualize-ML",
       "url": "https://github.com/Visualize-ML/Book1_Python-For-Beginners",
@@ -1490,19 +1497,19 @@
   ],
   "tags": [
     {
-      "name": "workflow",
-      "count": 7
-    },
-    {
-      "name": "openclaw",
-      "count": 6
-    },
-    {
       "name": "skills",
       "count": 6
     },
     {
+      "name": "workflow",
+      "count": 6
+    },
+    {
       "name": "cli",
+      "count": 5
+    },
+    {
+      "name": "openclaw",
       "count": 5
     },
     {
@@ -1531,10 +1538,6 @@
     },
     {
       "name": "latex",
-      "count": 4
-    },
-    {
-      "name": "visualization",
       "count": 4
     },
     {
@@ -1571,6 +1574,10 @@
     },
     {
       "name": "resources",
+      "count": 3
+    },
+    {
+      "name": "visualization",
       "count": 3
     },
     {
