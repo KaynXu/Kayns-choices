@@ -33,6 +33,7 @@ import type {
   Repository,
   RepositoryAtlas,
 } from "../lib/types";
+import { scrollAtlasToTop } from "../lib/viewport";
 
 const EMPTY_FILTERS: AtlasFilters = { query: "", category: "", tags: [] };
 const POPULAR_TAG_COUNT = 6;
@@ -206,12 +207,19 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
     filters.category.length > 0 ||
     filters.tags.length > 0;
 
+  const updateFilters = (
+    updater: (current: AtlasFilters) => AtlasFilters,
+  ) => {
+    setFilters(updater);
+    scrollAtlasToTop();
+  };
+
   const selectCategory = (category: string) => {
-    setFilters((current) => ({ ...current, category }));
+    updateFilters((current) => ({ ...current, category }));
   };
 
   const toggleTag = (tag: string) => {
-    setFilters((current) => ({
+    updateFilters((current) => ({
       ...current,
       tags: current.tags.includes(tag)
         ? current.tags.filter((selectedTag) => selectedTag !== tag)
@@ -219,7 +227,7 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
     }));
   };
 
-  const clearFilters = () => setFilters(EMPTY_FILTERS);
+  const clearFilters = () => updateFilters(() => EMPTY_FILTERS);
 
   const categoryNavigation = (
     <>
@@ -259,7 +267,7 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
                 type="search"
                 value={filters.query}
                 onChange={(event) =>
-                  setFilters((current) => ({
+                  updateFilters((current) => ({
                     ...current,
                     query: event.target.value,
                   }))
@@ -272,7 +280,7 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
                   className="search-clear"
                   type="button"
                   onClick={() =>
-                    setFilters((current) => ({ ...current, query: "" }))
+                    updateFilters((current) => ({ ...current, query: "" }))
                   }
                   aria-label="Clear search"
                   title="Clear search"
@@ -335,7 +343,7 @@ export function RepoAtlas({ atlas }: RepositoryAtlasProps) {
               data-selected={filters.tags.length === 0}
               type="button"
               onClick={() =>
-                setFilters((current) => ({ ...current, tags: [] }))
+                updateFilters((current) => ({ ...current, tags: [] }))
               }
               aria-pressed={filters.tags.length === 0}
             >
