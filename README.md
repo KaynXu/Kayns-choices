@@ -21,6 +21,14 @@
 
 | Repo | One-liner |
 |---|---|
+| [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api "repo-id: 1118601518") | Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。 |
+| [iptv-org/awesome-iptv](https://github.com/iptv-org/awesome-iptv "repo-id: 208640453") | A curated list of resources related to IPTV |
+| [iptv-org/iptv](https://github.com/iptv-org/iptv "repo-id: 157616880") | Collection of publicly available IPTV channels from all over the world |
+| [apple/container](https://github.com/apple/container "repo-id: 993475914") | A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. |
+| [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut "repo-id: 1006414368") | The open-source CapCut alternative |
+| [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp "repo-id: 1166102148") | High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies. |
+| [Chozzc/Lujie-Careerkit](https://github.com/Chozzc/Lujie-Careerkit "repo-id: 1284736292") | An AI-powered career workspace from resume editing to offer acceptance, covering resume editing, JD matching, application tracking, mock interviews, and interview review. |
+| [itcoffee66/githubweekly](https://github.com/itcoffee66/githubweekly "repo-id: 864376387") | GitHub一周热点汇总，每周分享5个热门项目，B站、YouTube发布视频版本，搜：IT咖啡馆 |
 | [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI "repo-id: 1181982220") | Make Any Website into CLI & Use your logged-in browser by AI agent. |
 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach "repo-id: 1165277268") | Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. |
 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss "repo-id: 106017343") | A utility-first CSS framework for rapid UI development. |
