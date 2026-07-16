@@ -1,4 +1,4 @@
-# Starred Repos Atlas
+# Kayn's Choice
 
 轻量记录我 star 过的 GitHub 项目.
 目标: 以后回看时, 知道它是干什么的, 该从哪一类找.
@@ -19,21 +19,10 @@
 ## Inbox
 刚 star, 还没认真归类的先扔这里.
 
-| Repo | One-liner |
-|---|---|
-| [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api "repo-id: 1118601518") | Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。 |
-| [iptv-org/awesome-iptv](https://github.com/iptv-org/awesome-iptv "repo-id: 208640453") | A curated list of resources related to IPTV |
-| [iptv-org/iptv](https://github.com/iptv-org/iptv "repo-id: 157616880") | Collection of publicly available IPTV channels from all over the world |
-| [apple/container](https://github.com/apple/container "repo-id: 993475914") | A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. |
-| [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut "repo-id: 1006414368") | The open-source CapCut alternative |
-| [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp "repo-id: 1166102148") | High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies. |
-| [Chozzc/Lujie-Careerkit](https://github.com/Chozzc/Lujie-Careerkit "repo-id: 1284736292") | An AI-powered career workspace from resume editing to offer acceptance, covering resume editing, JD matching, application tracking, mock interviews, and interview review. |
-| [itcoffee66/githubweekly](https://github.com/itcoffee66/githubweekly "repo-id: 864376387") | GitHub一周热点汇总，每周分享5个热门项目，B站、YouTube发布视频版本，搜：IT咖啡馆 |
-| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI "repo-id: 1181982220") | Make Any Website into CLI & Use your logged-in browser by AI agent. |
-| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach "repo-id: 1165277268") | Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees. |
-| [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss "repo-id: 106017343") | A utility-first CSS framework for rapid UI development. |
-| [enjoyousedu25/edexcel-essay-marker](https://github.com/enjoyousedu25/edexcel-essay-marker "repo-id: 1170263089") | 待补充 |
-| _Empty_ | 已完成当前 Inbox 分类, 等待新 star 自动进入 |
+| Repo                                                                                                  | One-liner                                                                                              |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| _Empty_ | 已完成当前 Inbox 分类, 等待新 star 自动进入. |
+
 
 [Back to top](#starred-repos-atlas)
 
@@ -56,6 +45,7 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach "repo-id: 1165277268") | 让你的 Agent 上网, 会用搜索引擎不代表能帮你看b站小红书, 这些需要登陆的东西, 这个Skill就可以解决, 让他学会, 比如用到了OpenCLI, gh来弄github, 油管用yt-dlp等. | skills, web-access, agents |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill "repo-id: 1140843380") | 一个帮你在各大社交媒体总结过去一个月 AI 热点的 Skill | research, social-media, trend-summary |
 | [remotion-dev/skills](https://github.com/remotion-dev/skills "repo-id: 1137388347") | Remotion 的 skill, 程序写动画 | skills, agents, patterns |
 | [obra/superpowers](https://github.com/obra/superpowers "repo-id: 1073224795") | 一套 agent 用的开好的开发流程 skills, 有点烧 token | methodology, skills, harness |
@@ -86,6 +76,10 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api "repo-id: 1118601518") | 开源的中转站工具, 应该是把AI订阅会员的token转成api卖. | api-gateway, subscription, relay |
+| [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp "repo-id: 1166102148") | 一个类似于Codegraph的项目, 把你的仓库变成知识图谱给AI, 优势是性能非常好, 特别快, 而且包装成mcp很不错. | codegraph, knowledge-graph, mcp |
+| [Chozzc/Lujie-Careerkit](https://github.com/Chozzc/Lujie-Careerkit "repo-id: 1284736292") | 录阶, 国产ai开源求职工具, 主要功能是维护简历, 录入简历等信息后可以为某个岗位特化简历, 跟踪投递状态, 其他ai面试什么的, 我不看好. | career, resume, ai |
+| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI "repo-id: 1181982220") | 把一切网站变成 CLI 给你的 Agent 用, 可以直接操作已经登录的 Chrome. | cli, browser-automation, agents |
 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice "repo-id: 1044296738") | 微软的开源语音 AI, 有 ASR (Automatic Speech Recognition) 也有 TTS (Text-to-Speech). | speech, asr, tts |
 | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam "repo-id: 695864515") | 有点猛的开源 AI 换脸 | vision, face-swap, realtime |
 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything "repo-id: 1176011916") | 港大的把一切都变成 MCP 的工具 | cli, agent-native, tooling |
@@ -108,6 +102,8 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut "repo-id: 1006414368") | 开源剪辑软件, 目标是替代剪映. | video-editor, desktop, open-source |
+| [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss "repo-id: 106017343") | 一种快速写CSS的几乎是前端开发标配的框架, 可以大幅减少你写的CSS代码, 有这个可以少写很多. | css, frontend, utility-first |
 | [lightpanda-io/browser](https://github.com/lightpanda-io/browser "repo-id: 598667202") | 给 AI 或者 CLI 用的无头轻量浏览器 | headless-browser, automation, cli |
 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen "repo-id: 1073433866") | 开源平替 Screen Studio | screencast, recording, desktop |
 | [chenglou/pretext](https://github.com/chenglou/pretext "repo-id: 1175538883") | 打破了传统 DOM, 从根源解决 HTML 文字排版问题 | typography, html, rendering |
@@ -132,6 +128,7 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [apple/container](https://github.com/apple/container "repo-id: 993475914") | 苹果自己给 Mac 做的轻量 Linux 运行开源工具, 可以快速启动互相隔离的小型 Linux 环境, 用来运行原本面向 Linux 服务器的软件, 可以替代一部分 Docker的工作. | containers, virtualization, apple-silicon |
 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk "repo-id: 299354207") | 最好用的远程方案, 可以自建服务器 | remote-desktop, self-hosted, ops |
 | [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang "repo-id: 29219243") | 科学上网资料和工具集合. | proxy, network, censorship |
 
@@ -179,6 +176,8 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [iptv-org/awesome-iptv](https://github.com/iptv-org/awesome-iptv "repo-id: 208640453") | IPTV 相关资源导航, 收集各平台播放器, 频道数据源, 节目表和开发工具. | iptv, awesome-list, media |
+| [itcoffee66/githubweekly](https://github.com/itcoffee66/githubweekly "repo-id: 864376387") | IT 咖啡馆的GitHub 一周热点汇总, 每周分享 5 个热门项目, B 站, YouTube 发布视频版本. | github, weekly, curation |
 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome "repo-id: 21737465") | Awesome 列表总入口 | awesome-list, index, resources |
 | [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university "repo-id: 60493101") | 系统化的计算机科学学习路线 | cs, roadmap, interview |
 | [xiaohanyu/awesome-tikz](https://github.com/xiaohanyu/awesome-tikz "repo-id: 81643361") | TikZ 资源索引 | tikz, diagrams, resources |
@@ -198,6 +197,7 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [iptv-org/iptv](https://github.com/iptv-org/iptv "repo-id: 157616880") | 收集了全世界公开的常见的IPTV的地址, 可以作为 M3U 播放列表导入 VLC 等播放器. | iptv, playlist, streaming |
 | [TakWolf/ark-pixel-font](https://github.com/TakWolf/ark-pixel-font "repo-id: 366474401") | 开源的泛中日韩像素字体, 黑体风格 | font, pixel, cjk |
 | [AnMnv/latex-skill-icons](https://github.com/AnMnv/latex-skill-icons "repo-id: 799619635") | LaTeX 里的 skill 图标资源 | latex, icons, assets |
 | [lucide-icons/lucide](https://github.com/lucide-icons/lucide "repo-id: 270722949") | 开源图标库, 很简洁 | icons, frontend, design-system |
