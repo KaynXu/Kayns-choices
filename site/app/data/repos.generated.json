@@ -3,7 +3,7 @@
     {
       "name": "Inbox",
       "slug": "inbox",
-      "count": 4
+      "count": 0
     },
     {
       "name": "AI-LLM/Agents",
@@ -13,7 +13,7 @@
     {
       "name": "AI-Skills",
       "slug": "ai-skills",
-      "count": 10
+      "count": 11
     },
     {
       "name": "AI-Harness",
@@ -23,17 +23,17 @@
     {
       "name": "AI-Tools",
       "slug": "ai-tools",
-      "count": 15
+      "count": 19
     },
     {
       "name": "Developer-Tools",
       "slug": "developer-tools",
-      "count": 17
+      "count": 19
     },
     {
       "name": "Infrastructure",
       "slug": "infrastructure",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Visualisation",
@@ -53,59 +53,15 @@
     {
       "name": "Learning and Lists",
       "slug": "learning-and-lists",
-      "count": 12
+      "count": 14
     },
     {
       "name": "Assests and Resources",
       "slug": "assests-and-resources",
-      "count": 7
+      "count": 8
     }
   ],
   "repositories": [
-    {
-      "id": "1181982220",
-      "fullName": "jackwener/OpenCLI",
-      "owner": "jackwener",
-      "url": "https://github.com/jackwener/OpenCLI",
-      "avatarUrl": "https://github.com/jackwener.png?size=96",
-      "note": "Make Any Website into CLI & Use your logged-in browser by AI agent.",
-      "tags": [],
-      "category": "Inbox",
-      "categorySlug": "inbox"
-    },
-    {
-      "id": "1165277268",
-      "fullName": "Panniantong/Agent-Reach",
-      "owner": "Panniantong",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "avatarUrl": "https://github.com/Panniantong.png?size=96",
-      "note": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "tags": [],
-      "category": "Inbox",
-      "categorySlug": "inbox"
-    },
-    {
-      "id": "106017343",
-      "fullName": "tailwindlabs/tailwindcss",
-      "owner": "tailwindlabs",
-      "url": "https://github.com/tailwindlabs/tailwindcss",
-      "avatarUrl": "https://github.com/tailwindlabs.png?size=96",
-      "note": "A utility-first CSS framework for rapid UI development.",
-      "tags": [],
-      "category": "Inbox",
-      "categorySlug": "inbox"
-    },
-    {
-      "id": "1170263089",
-      "fullName": "enjoyousedu25/edexcel-essay-marker",
-      "owner": "enjoyousedu25",
-      "url": "https://github.com/enjoyousedu25/edexcel-essay-marker",
-      "avatarUrl": "https://github.com/enjoyousedu25.png?size=96",
-      "note": "待补充",
-      "tags": [],
-      "category": "Inbox",
-      "categorySlug": "inbox"
-    },
     {
       "id": "1104332987",
       "fullName": "666ghj/MiroFish",
@@ -225,6 +181,21 @@
       ],
       "category": "AI-LLM/Agents",
       "categorySlug": "ai-llm-agents"
+    },
+    {
+      "id": "1165277268",
+      "fullName": "Panniantong/Agent-Reach",
+      "owner": "Panniantong",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "avatarUrl": "https://github.com/Panniantong.png?size=96",
+      "note": "让你的 Agent 上网, 会用搜索引擎不代表能帮你看b站小红书, 这些需要登陆的东西, 这个Skill就可以解决, 让他学会, 比如用到了OpenCLI, gh来弄github, 油管用yt-dlp等.",
+      "tags": [
+        "skills",
+        "web-access",
+        "agents"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
     },
     {
       "id": "1140843380",
@@ -467,6 +438,66 @@
       "categorySlug": "ai-harness"
     },
     {
+      "id": "1118601518",
+      "fullName": "Wei-Shaw/sub2api",
+      "owner": "Wei-Shaw",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "avatarUrl": "https://github.com/Wei-Shaw.png?size=96",
+      "note": "开源的中转站工具, 应该是把AI订阅会员的token转成api卖.",
+      "tags": [
+        "api-gateway",
+        "subscription",
+        "relay"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "1166102148",
+      "fullName": "DeusData/codebase-memory-mcp",
+      "owner": "DeusData",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "avatarUrl": "https://github.com/DeusData.png?size=96",
+      "note": "一个类似于Codegraph的项目, 把你的仓库变成知识图谱给AI, 优势是性能非常好, 特别快, 而且包装成mcp很不错.",
+      "tags": [
+        "codegraph",
+        "knowledge-graph",
+        "mcp"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "1284736292",
+      "fullName": "Chozzc/Lujie-Careerkit",
+      "owner": "Chozzc",
+      "url": "https://github.com/Chozzc/Lujie-Careerkit",
+      "avatarUrl": "https://github.com/Chozzc.png?size=96",
+      "note": "录阶, 国产ai开源求职工具, 主要功能是维护简历, 录入简历等信息后可以为某个岗位特化简历, 跟踪投递状态, 其他ai面试什么的, 我不看好.",
+      "tags": [
+        "career",
+        "resume",
+        "ai"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "1181982220",
+      "fullName": "jackwener/OpenCLI",
+      "owner": "jackwener",
+      "url": "https://github.com/jackwener/OpenCLI",
+      "avatarUrl": "https://github.com/jackwener.png?size=96",
+      "note": "把一切网站变成 CLI 给你的 Agent 用, 可以直接操作已经登录的 Chrome.",
+      "tags": [
+        "cli",
+        "browser-automation",
+        "agents"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
       "id": "1044296738",
       "fullName": "microsoft/VibeVoice",
       "owner": "microsoft",
@@ -690,6 +721,36 @@
       ],
       "category": "AI-Tools",
       "categorySlug": "ai-tools"
+    },
+    {
+      "id": "1006414368",
+      "fullName": "OpenCut-app/OpenCut",
+      "owner": "OpenCut-app",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "avatarUrl": "https://github.com/OpenCut-app.png?size=96",
+      "note": "开源剪辑软件, 目标是替代剪映.",
+      "tags": [
+        "video-editor",
+        "desktop",
+        "open-source"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "106017343",
+      "fullName": "tailwindlabs/tailwindcss",
+      "owner": "tailwindlabs",
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "avatarUrl": "https://github.com/tailwindlabs.png?size=96",
+      "note": "一种快速写CSS的几乎是前端开发标配的框架, 可以大幅减少你写的CSS代码, 有这个可以少写很多.",
+      "tags": [
+        "css",
+        "frontend",
+        "utility-first"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
     },
     {
       "id": "598667202",
@@ -945,6 +1006,21 @@
       ],
       "category": "Developer-Tools",
       "categorySlug": "developer-tools"
+    },
+    {
+      "id": "993475914",
+      "fullName": "apple/container",
+      "owner": "apple",
+      "url": "https://github.com/apple/container",
+      "avatarUrl": "https://github.com/apple.png?size=96",
+      "note": "苹果自己给 Mac 做的轻量 Linux 运行开源工具, 可以快速启动互相隔离的小型 Linux 环境, 用来运行原本面向 Linux 服务器的软件, 可以替代一部分 Docker的工作.",
+      "tags": [
+        "containers",
+        "virtualization",
+        "apple-silicon"
+      ],
+      "category": "Infrastructure",
+      "categorySlug": "infrastructure"
     },
     {
       "id": "299354207",
@@ -1232,6 +1308,36 @@
       "categorySlug": "gamedev"
     },
     {
+      "id": "208640453",
+      "fullName": "iptv-org/awesome-iptv",
+      "owner": "iptv-org",
+      "url": "https://github.com/iptv-org/awesome-iptv",
+      "avatarUrl": "https://github.com/iptv-org.png?size=96",
+      "note": "IPTV 相关资源导航, 收集各平台播放器, 频道数据源, 节目表和开发工具.",
+      "tags": [
+        "iptv",
+        "awesome-list",
+        "media"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "864376387",
+      "fullName": "itcoffee66/githubweekly",
+      "owner": "itcoffee66",
+      "url": "https://github.com/itcoffee66/githubweekly",
+      "avatarUrl": "https://github.com/itcoffee66.png?size=96",
+      "note": "IT 咖啡馆的GitHub 一周热点汇总, 每周分享 5 个热门项目, B 站, YouTube 发布视频版本.",
+      "tags": [
+        "github",
+        "weekly",
+        "curation"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
       "id": "21737465",
       "fullName": "sindresorhus/awesome",
       "owner": "sindresorhus",
@@ -1412,6 +1518,21 @@
       "categorySlug": "learning-and-lists"
     },
     {
+      "id": "157616880",
+      "fullName": "iptv-org/iptv",
+      "owner": "iptv-org",
+      "url": "https://github.com/iptv-org/iptv",
+      "avatarUrl": "https://github.com/iptv-org.png?size=96",
+      "note": "收集了全世界公开的常见的IPTV的地址, 可以作为 M3U 播放列表导入 VLC 等播放器.",
+      "tags": [
+        "iptv",
+        "playlist",
+        "streaming"
+      ],
+      "category": "Assests and Resources",
+      "categorySlug": "assests-and-resources"
+    },
+    {
       "id": "366474401",
       "fullName": "TakWolf/ark-pixel-font",
       "owner": "TakWolf",
@@ -1520,6 +1641,14 @@
   "tags": [
     {
       "name": "skills",
+      "count": 7
+    },
+    {
+      "name": "agents",
+      "count": 6
+    },
+    {
+      "name": "cli",
       "count": 6
     },
     {
@@ -1527,7 +1656,7 @@
       "count": 6
     },
     {
-      "name": "cli",
+      "name": "awesome-list",
       "count": 5
     },
     {
@@ -1539,15 +1668,7 @@
       "count": 4
     },
     {
-      "name": "agents",
-      "count": 4
-    },
-    {
       "name": "animation",
-      "count": 4
-    },
-    {
-      "name": "awesome-list",
       "count": 4
     },
     {
@@ -1571,11 +1692,19 @@
       "count": 3
     },
     {
+      "name": "desktop",
+      "count": 3
+    },
+    {
       "name": "education",
       "count": 3
     },
     {
       "name": "font",
+      "count": 3
+    },
+    {
+      "name": "frontend",
       "count": 3
     },
     {
@@ -1603,11 +1732,19 @@
       "count": 3
     },
     {
+      "name": "ai",
+      "count": 2
+    },
+    {
       "name": "ai-agent",
       "count": 2
     },
     {
       "name": "cjk",
+      "count": 2
+    },
+    {
+      "name": "codegraph",
       "count": 2
     },
     {
@@ -1619,10 +1756,6 @@
       "count": 2
     },
     {
-      "name": "desktop",
-      "count": 2
-    },
-    {
       "name": "docs",
       "count": 2
     },
@@ -1631,7 +1764,7 @@
       "count": 2
     },
     {
-      "name": "frontend",
+      "name": "github",
       "count": 2
     },
     {
@@ -1651,7 +1784,15 @@
       "count": 2
     },
     {
+      "name": "iptv",
+      "count": 2
+    },
+    {
       "name": "karpathy",
+      "count": 2
+    },
+    {
+      "name": "knowledge-graph",
       "count": 2
     },
     {
@@ -1660,6 +1801,14 @@
     },
     {
       "name": "manim",
+      "count": 2
+    },
+    {
+      "name": "mcp",
+      "count": 2
+    },
+    {
+      "name": "media",
       "count": 2
     },
     {
@@ -1767,10 +1916,6 @@
       "count": 1
     },
     {
-      "name": "ai",
-      "count": 1
-    },
-    {
       "name": "ai-accounts",
       "count": 1
     },
@@ -1799,7 +1944,15 @@
       "count": 1
     },
     {
+      "name": "api-gateway",
+      "count": 1
+    },
+    {
       "name": "app-builder",
+      "count": 1
+    },
+    {
+      "name": "apple-silicon",
       "count": 1
     },
     {
@@ -1839,6 +1992,14 @@
       "count": 1
     },
     {
+      "name": "browser-automation",
+      "count": 1
+    },
+    {
+      "name": "career",
+      "count": 1
+    },
+    {
       "name": "censorship",
       "count": 1
     },
@@ -1855,10 +2016,6 @@
       "count": 1
     },
     {
-      "name": "codegraph",
-      "count": 1
-    },
-    {
       "name": "codex",
       "count": 1
     },
@@ -1867,11 +2024,23 @@
       "count": 1
     },
     {
+      "name": "containers",
+      "count": 1
+    },
+    {
       "name": "course",
       "count": 1
     },
     {
       "name": "cs",
+      "count": 1
+    },
+    {
+      "name": "css",
+      "count": 1
+    },
+    {
+      "name": "curation",
       "count": 1
     },
     {
@@ -1959,10 +2128,6 @@
       "count": 1
     },
     {
-      "name": "github",
-      "count": 1
-    },
-    {
       "name": "gui",
       "count": 1
     },
@@ -2007,10 +2172,6 @@
       "count": 1
     },
     {
-      "name": "knowledge-graph",
-      "count": 1
-    },
-    {
       "name": "linear-algebra",
       "count": 1
     },
@@ -2024,14 +2185,6 @@
     },
     {
       "name": "markdown",
-      "count": 1
-    },
-    {
-      "name": "mcp",
-      "count": 1
-    },
-    {
-      "name": "media",
       "count": 1
     },
     {
@@ -2063,6 +2216,10 @@
       "count": 1
     },
     {
+      "name": "open-source",
+      "count": 1
+    },
+    {
       "name": "ops",
       "count": 1
     },
@@ -2084,6 +2241,10 @@
     },
     {
       "name": "platform",
+      "count": 1
+    },
+    {
+      "name": "playlist",
       "count": 1
     },
     {
@@ -2127,7 +2288,15 @@
       "count": 1
     },
     {
+      "name": "relay",
+      "count": 1
+    },
+    {
       "name": "remote-desktop",
+      "count": 1
+    },
+    {
+      "name": "resume",
       "count": 1
     },
     {
@@ -2168,6 +2337,14 @@
     },
     {
       "name": "steganography",
+      "count": 1
+    },
+    {
+      "name": "streaming",
+      "count": 1
+    },
+    {
+      "name": "subscription",
       "count": 1
     },
     {
@@ -2231,6 +2408,18 @@
       "count": 1
     },
     {
+      "name": "utility-first",
+      "count": 1
+    },
+    {
+      "name": "video-editor",
+      "count": 1
+    },
+    {
+      "name": "virtualization",
+      "count": 1
+    },
+    {
       "name": "vision",
       "count": 1
     },
@@ -2243,7 +2432,15 @@
       "count": 1
     },
     {
+      "name": "web-access",
+      "count": 1
+    },
+    {
       "name": "wechat",
+      "count": 1
+    },
+    {
+      "name": "weekly",
       "count": 1
     },
     {
