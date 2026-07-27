@@ -8,12 +8,12 @@
     {
       "name": "AI-LLM/Agents",
       "slug": "ai-llm-agents",
-      "count": 8
+      "count": 9
     },
     {
       "name": "AI-Skills",
       "slug": "ai-skills",
-      "count": 12
+      "count": 13
     },
     {
       "name": "AI-Harness",
@@ -28,7 +28,7 @@
     {
       "name": "Developer-Tools",
       "slug": "developer-tools",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Infrastructure",
@@ -62,6 +62,21 @@
     }
   ],
   "repositories": [
+    {
+      "id": "1035029907",
+      "fullName": "earendil-works/pi",
+      "owner": "earendil-works",
+      "url": "https://github.com/earendil-works/pi",
+      "avatarUrl": "https://github.com/earendil-works.png?size=96",
+      "note": "开源Agent架构, 理解为开源的codex claudecode, 和他们一样其实是通用Agent, 名字取得不好.",
+      "tags": [
+        "coding-agent",
+        "harness",
+        "cli"
+      ],
+      "category": "AI-LLM/Agents",
+      "categorySlug": "ai-llm-agents"
+    },
     {
       "id": "1104332987",
       "fullName": "666ghj/MiroFish",
@@ -181,6 +196,21 @@
       ],
       "category": "AI-LLM/Agents",
       "categorySlug": "ai-llm-agents"
+    },
+    {
+      "id": "1097346685",
+      "fullName": "pbakaus/impeccable",
+      "owner": "pbakaus",
+      "url": "https://github.com/pbakaus/impeccable",
+      "avatarUrl": "https://github.com/pbakaus.png?size=96",
+      "note": "去AI味的Skill, 但是也不只有skill, 还有一些防ai的规则限制, 算式一套Design Harness吧",
+      "tags": [
+        "design",
+        "skills",
+        "frontend"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
     },
     {
       "id": "1202599845",
@@ -811,6 +841,21 @@
       ],
       "category": "AI-Tools",
       "categorySlug": "ai-tools"
+    },
+    {
+      "id": "651517185",
+      "fullName": "NanmiCoder/MediaCrawler",
+      "owner": "NanmiCoder",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "avatarUrl": "https://github.com/NanmiCoder.png?size=96",
+      "note": "中国宝宝的爬虫, 国内平台都能爬, 且用且珍惜.",
+      "tags": [
+        "crawler",
+        "social-media",
+        "data-collection"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
     },
     {
       "id": "1013830656",
@@ -1840,11 +1885,11 @@
     },
     {
       "name": "skills",
-      "count": 8
+      "count": 9
     },
     {
       "name": "cli",
-      "count": 7
+      "count": 8
     },
     {
       "name": "agent",
@@ -1859,6 +1904,10 @@
       "count": 5
     },
     {
+      "name": "coding-agent",
+      "count": 5
+    },
+    {
       "name": "openclaw",
       "count": 5
     },
@@ -1867,15 +1916,15 @@
       "count": 4
     },
     {
-      "name": "coding-agent",
-      "count": 4
-    },
-    {
       "name": "components",
       "count": 4
     },
     {
       "name": "design-system",
+      "count": 4
+    },
+    {
+      "name": "frontend",
       "count": 4
     },
     {
@@ -1903,7 +1952,7 @@
       "count": 3
     },
     {
-      "name": "frontend",
+      "name": "harness",
       "count": 3
     },
     {
@@ -1963,6 +2012,10 @@
       "count": 2
     },
     {
+      "name": "design",
+      "count": 2
+    },
+    {
       "name": "design-md",
       "count": 2
     },
@@ -1988,10 +2041,6 @@
     },
     {
       "name": "gui",
-      "count": 2
-    },
-    {
-      "name": "harness",
       "count": 2
     },
     {
@@ -2088,6 +2137,10 @@
     },
     {
       "name": "skill",
+      "count": 2
+    },
+    {
+      "name": "social-media",
       "count": 2
     },
     {
@@ -2267,6 +2320,10 @@
       "count": 1
     },
     {
+      "name": "crawler",
+      "count": 1
+    },
+    {
       "name": "cs",
       "count": 1
     },
@@ -2283,11 +2340,11 @@
       "count": 1
     },
     {
-      "name": "dataset",
+      "name": "data-collection",
       "count": 1
     },
     {
-      "name": "design",
+      "name": "dataset",
       "count": 1
     },
     {
@@ -2596,10 +2653,6 @@
     },
     {
       "name": "simulation",
-      "count": 1
-    },
-    {
-      "name": "social-media",
       "count": 1
     },
     {

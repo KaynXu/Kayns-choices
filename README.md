@@ -19,8 +19,9 @@
 ## Inbox
 刚 star, 还没认真归类的先扔这里.
 
-| Repo                                                                                                           | One-liner                                        |
-| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| Repo                                                                                       | One-liner                                                   |
+| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
+| _Empty_ | 已完成当前 Inbox 分类, 等待新 star 自动进入. |
 
 
 [Back to top](#starred-repos-atlas)
@@ -29,6 +30,7 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [earendil-works/pi](https://github.com/earendil-works/pi "repo-id: 1035029907") | 开源Agent架构, 理解为开源的codex claudecode, 和他们一样其实是通用Agent, 名字取得不好. | coding-agent, harness, cli |
 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish "repo-id: 1104332987") | 一个多智能体的 AI 预测引擎, 他们用这个预测了红楼梦的后四十回, 给了 context 后会生成一张大大的 graphRAG, 通过提取现实世界的种子信息 ( 如突发新闻, 政策草案, 金融信号), 自动构建出高保真的平行数字世界. 在此空间内, 成千上万个具备独立人格, 长期记忆与行为逻辑的智能体进行自由交互与社会演化. 你可透过「上帝视角」动态注入变量, 精准推演未来走向, 让未来在数字沙盘中预演, 助决策在百战模拟后胜出. | multi-agent, simulation, prediction |
 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos "repo-id: 1011567289") | 面向金融市场语言的基础模型 | finance, foundation-model, time-series |
 | [moeru-ai/airi](https://github.com/moeru-ai/airi "repo-id: 896924279") | 自托管 AI companion / realtime agent 应用 | companion, realtime, self-hosted |
@@ -44,6 +46,7 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable "repo-id: 1097346685") | 去AI味的Skill, 但是也不只有skill, 还有一些防ai的规则限制, 算式一套Design Harness吧  | design, skills, frontend |
 | [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills "repo-id: 1202599845") | 卡兹克(那个AI博主)的Skills. | skills, agents, collection |
 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach "repo-id: 1165277268") | 让你的 Agent 上网, 会用搜索引擎不代表能帮你看b站小红书, 这些需要登陆的东西, 这个Skill就可以解决, 让他学会, 比如用到了OpenCLI, gh来弄github, 油管用yt-dlp等. | skills, web-access, agents |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill "repo-id: 1140843380") | 一个帮你在各大社交媒体总结过去一个月 AI 热点的 Skill | research, social-media, trend-summary |
@@ -107,6 +110,7 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler "repo-id: 651517185") | 中国宝宝的爬虫, 国内平台都能爬, 且用且珍惜. | crawler, social-media, data-collection |
 | [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat "repo-id: 1013830656") | 本地聊天工具, 依赖于蓝牙, 主打安全私密. | bluetooth, mesh, private |
 | [yorukot/superfile](https://github.com/yorukot/superfile "repo-id: 774468912") | 一个很漂亮的TUI文件管理器. | tui, file-manager, terminal |
 | [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit "repo-id: 1158588224") | 检测你这个设备能跑什么本地模型的工具. | local-models, hardware, cli |
