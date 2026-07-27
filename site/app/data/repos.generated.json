@@ -13,27 +13,27 @@
     {
       "name": "AI-Skills",
       "slug": "ai-skills",
-      "count": 11
+      "count": 12
     },
     {
       "name": "AI-Harness",
       "slug": "ai-harness",
-      "count": 6
+      "count": 8
     },
     {
       "name": "AI-Tools",
       "slug": "ai-tools",
-      "count": 19
+      "count": 22
     },
     {
       "name": "Developer-Tools",
       "slug": "developer-tools",
-      "count": 19
+      "count": 22
     },
     {
       "name": "Infrastructure",
       "slug": "infrastructure",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Visualisation",
@@ -48,12 +48,12 @@
     {
       "name": "GameDev",
       "slug": "gamedev",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Learning and Lists",
       "slug": "learning-and-lists",
-      "count": 14
+      "count": 16
     },
     {
       "name": "Assests and Resources",
@@ -181,6 +181,21 @@
       ],
       "category": "AI-LLM/Agents",
       "categorySlug": "ai-llm-agents"
+    },
+    {
+      "id": "1202599845",
+      "fullName": "KKKKhazix/khazix-skills",
+      "owner": "KKKKhazix",
+      "url": "https://github.com/KKKKhazix/khazix-skills",
+      "avatarUrl": "https://github.com/KKKKhazix.png?size=96",
+      "note": "卡兹克(那个AI博主)的Skills.",
+      "tags": [
+        "skills",
+        "agents",
+        "collection"
+      ],
+      "category": "AI-Skills",
+      "categorySlug": "ai-skills"
     },
     {
       "id": "1165277268",
@@ -348,6 +363,36 @@
       "categorySlug": "ai-skills"
     },
     {
+      "id": "1174789082",
+      "fullName": "block/buzz",
+      "owner": "block",
+      "url": "https://github.com/block/buzz",
+      "avatarUrl": "https://github.com/block.png?size=96",
+      "note": "名字很宏大, 蜂群, 科幻电影里的蜂群, 让agent和你像在一个聊天窗里沟通, 然后工作留痕.",
+      "tags": [
+        "collaboration",
+        "agents",
+        "communication"
+      ],
+      "category": "AI-Harness",
+      "categorySlug": "ai-harness"
+    },
+    {
+      "id": "1153130349",
+      "fullName": "pingdotgg/t3code",
+      "owner": "pingdotgg",
+      "url": "https://github.com/pingdotgg/t3code",
+      "avatarUrl": "https://github.com/pingdotgg.png?size=96",
+      "note": "一个让你可以在一个UI界面用所有Agent的工具, 比如codex和cc, 还有一些协作功能.",
+      "tags": [
+        "coding-agent",
+        "ui",
+        "collaboration"
+      ],
+      "category": "AI-Harness",
+      "categorySlug": "ai-harness"
+    },
+    {
       "id": "1148052330",
       "fullName": "Yeachan-Heo/oh-my-codex",
       "owner": "Yeachan-Heo",
@@ -436,6 +481,51 @@
       ],
       "category": "AI-Harness",
       "categorySlug": "ai-harness"
+    },
+    {
+      "id": "1212503250",
+      "fullName": "citrolabs/ego-lite",
+      "owner": "citrolabs",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "avatarUrl": "https://github.com/citrolabs.png?size=96",
+      "note": "给Agent的浏览器, 能保存很多登陆信息.",
+      "tags": [
+        "browser",
+        "agents",
+        "session"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "1225753223",
+      "fullName": "CoreBunch/Instatic",
+      "owner": "CoreBunch",
+      "url": "https://github.com/CoreBunch/Instatic",
+      "avatarUrl": "https://github.com/CoreBunch.png?size=96",
+      "note": "想取代Webflow, Framer的开源Agent CMS.",
+      "tags": [
+        "cms",
+        "visual-builder",
+        "agent"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
+    },
+    {
+      "id": "656227652",
+      "fullName": "OtterMind/Chat2DB",
+      "owner": "OtterMind",
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "avatarUrl": "https://github.com/OtterMind.png?size=96",
+      "note": "数据库可视化工具, 特点是为Agent做了优化.",
+      "tags": [
+        "database",
+        "gui",
+        "ai"
+      ],
+      "category": "AI-Tools",
+      "categorySlug": "ai-tools"
     },
     {
       "id": "1118601518",
@@ -723,6 +813,51 @@
       "categorySlug": "ai-tools"
     },
     {
+      "id": "1013830656",
+      "fullName": "permissionlesstech/bitchat",
+      "owner": "permissionlesstech",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "avatarUrl": "https://github.com/permissionlesstech.png?size=96",
+      "note": "本地聊天工具, 依赖于蓝牙, 主打安全私密.",
+      "tags": [
+        "bluetooth",
+        "mesh",
+        "private"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "774468912",
+      "fullName": "yorukot/superfile",
+      "owner": "yorukot",
+      "url": "https://github.com/yorukot/superfile",
+      "avatarUrl": "https://github.com/yorukot.png?size=96",
+      "note": "一个很漂亮的TUI文件管理器.",
+      "tags": [
+        "tui",
+        "file-manager",
+        "terminal"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
+      "id": "1158588224",
+      "fullName": "AlexsJones/llmfit",
+      "owner": "AlexsJones",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "avatarUrl": "https://github.com/AlexsJones.png?size=96",
+      "note": "检测你这个设备能跑什么本地模型的工具.",
+      "tags": [
+        "local-models",
+        "hardware",
+        "cli"
+      ],
+      "category": "Developer-Tools",
+      "categorySlug": "developer-tools"
+    },
+    {
       "id": "1006414368",
       "fullName": "OpenCut-app/OpenCut",
       "owner": "OpenCut-app",
@@ -1008,6 +1143,21 @@
       "categorySlug": "developer-tools"
     },
     {
+      "id": "27193779",
+      "fullName": "nodejs/node",
+      "owner": "nodejs",
+      "url": "https://github.com/nodejs/node",
+      "avatarUrl": "https://github.com/nodejs.png?size=96",
+      "note": "大名鼎鼎的Nodejs, 让js可以不在浏览器里跑.",
+      "tags": [
+        "runtime",
+        "javascript",
+        "infrastructure"
+      ],
+      "category": "Infrastructure",
+      "categorySlug": "infrastructure"
+    },
+    {
       "id": "993475914",
       "fullName": "apple/container",
       "owner": "apple",
@@ -1263,6 +1413,21 @@
       "categorySlug": "security"
     },
     {
+      "id": "23129458",
+      "fullName": "aseprite/aseprite",
+      "owner": "aseprite",
+      "url": "https://github.com/aseprite/aseprite",
+      "avatarUrl": "https://github.com/aseprite.png?size=96",
+      "note": "大名鼎鼎的aseprite, 做像素精灵图必备工具.",
+      "tags": [
+        "pixel-art",
+        "sprite-editor",
+        "gamedev"
+      ],
+      "category": "GameDev",
+      "categorySlug": "gamedev"
+    },
+    {
       "id": "471226425",
       "fullName": "MaaEnd/MaaEnd",
       "owner": "MaaEnd",
@@ -1306,6 +1471,36 @@
       ],
       "category": "GameDev",
       "categorySlug": "gamedev"
+    },
+    {
+      "id": "1053118194",
+      "fullName": "bojieli/ai-agent-book",
+      "owner": "bojieli",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "avatarUrl": "https://github.com/bojieli.png?size=96",
+      "note": "李博杰的开源书AI Agent的仓库.",
+      "tags": [
+        "agent",
+        "book",
+        "engineering"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
+    },
+    {
+      "id": "104337773",
+      "fullName": "1c7/chinese-independent-developer",
+      "owner": "1c7",
+      "url": "https://github.com/1c7/chinese-independent-developer",
+      "avatarUrl": "https://github.com/1c7.png?size=96",
+      "note": "收集了一些中国独立开发者分享大家正在做什么, 不知道上榜标准是什么, 星也有点莫名其妙.",
+      "tags": [
+        "indie-developer",
+        "projects",
+        "directory"
+      ],
+      "category": "Learning and Lists",
+      "categorySlug": "learning-and-lists"
     },
     {
       "id": "208640453",
@@ -1640,15 +1835,19 @@
   ],
   "tags": [
     {
-      "name": "skills",
-      "count": 7
+      "name": "agents",
+      "count": 9
     },
     {
-      "name": "agents",
-      "count": 6
+      "name": "skills",
+      "count": 8
     },
     {
       "name": "cli",
+      "count": 7
+    },
+    {
+      "name": "agent",
       "count": 6
     },
     {
@@ -1664,11 +1863,11 @@
       "count": 5
     },
     {
-      "name": "agent",
+      "name": "animation",
       "count": 4
     },
     {
-      "name": "animation",
+      "name": "coding-agent",
       "count": 4
     },
     {
@@ -1684,11 +1883,11 @@
       "count": 4
     },
     {
-      "name": "automation",
+      "name": "ai",
       "count": 3
     },
     {
-      "name": "coding-agent",
+      "name": "automation",
       "count": 3
     },
     {
@@ -1728,15 +1927,19 @@
       "count": 3
     },
     {
+      "name": "terminal",
+      "count": 3
+    },
+    {
       "name": "visualization",
       "count": 3
     },
     {
-      "name": "ai",
+      "name": "ai-agent",
       "count": 2
     },
     {
-      "name": "ai-agent",
+      "name": "browser",
       "count": 2
     },
     {
@@ -1748,7 +1951,15 @@
       "count": 2
     },
     {
+      "name": "collaboration",
+      "count": 2
+    },
+    {
       "name": "dashboard",
+      "count": 2
+    },
+    {
+      "name": "database",
       "count": 2
     },
     {
@@ -1764,11 +1975,19 @@
       "count": 2
     },
     {
+      "name": "gamedev",
+      "count": 2
+    },
+    {
       "name": "github",
       "count": 2
     },
     {
       "name": "godot",
+      "count": 2
+    },
+    {
+      "name": "gui",
       "count": 2
     },
     {
@@ -1884,15 +2103,15 @@
       "count": 2
     },
     {
-      "name": "terminal",
-      "count": 2
-    },
-    {
       "name": "tts",
       "count": 2
     },
     {
       "name": "typography",
+      "count": 2
+    },
+    {
+      "name": "ui",
       "count": 2
     },
     {
@@ -1988,7 +2207,11 @@
       "count": 1
     },
     {
-      "name": "browser",
+      "name": "bluetooth",
+      "count": 1
+    },
+    {
+      "name": "book",
       "count": 1
     },
     {
@@ -2016,7 +2239,19 @@
       "count": 1
     },
     {
+      "name": "cms",
+      "count": 1
+    },
+    {
       "name": "codex",
+      "count": 1
+    },
+    {
+      "name": "collection",
+      "count": 1
+    },
+    {
+      "name": "communication",
       "count": 1
     },
     {
@@ -2048,10 +2283,6 @@
       "count": 1
     },
     {
-      "name": "database",
-      "count": 1
-    },
-    {
       "name": "dataset",
       "count": 1
     },
@@ -2076,6 +2307,10 @@
       "count": 1
     },
     {
+      "name": "directory",
+      "count": 1
+    },
+    {
       "name": "documentation",
       "count": 1
     },
@@ -2096,6 +2331,10 @@
       "count": 1
     },
     {
+      "name": "engineering",
+      "count": 1
+    },
+    {
       "name": "english",
       "count": 1
     },
@@ -2105,6 +2344,10 @@
     },
     {
       "name": "face-swap",
+      "count": 1
+    },
+    {
+      "name": "file-manager",
       "count": 1
     },
     {
@@ -2120,19 +2363,15 @@
       "count": 1
     },
     {
-      "name": "gamedev",
-      "count": 1
-    },
-    {
       "name": "git",
       "count": 1
     },
     {
-      "name": "gui",
+      "name": "hacking",
       "count": 1
     },
     {
-      "name": "hacking",
+      "name": "hardware",
       "count": 1
     },
     {
@@ -2164,7 +2403,19 @@
       "count": 1
     },
     {
+      "name": "indie-developer",
+      "count": 1
+    },
+    {
+      "name": "infrastructure",
+      "count": 1
+    },
+    {
       "name": "interview",
+      "count": 1
+    },
+    {
+      "name": "javascript",
       "count": 1
     },
     {
@@ -2173,6 +2424,10 @@
     },
     {
       "name": "linear-algebra",
+      "count": 1
+    },
+    {
+      "name": "local-models",
       "count": 1
     },
     {
@@ -2189,6 +2444,10 @@
     },
     {
       "name": "memory",
+      "count": 1
+    },
+    {
+      "name": "mesh",
       "count": 1
     },
     {
@@ -2236,6 +2495,10 @@
       "count": 1
     },
     {
+      "name": "pixel-art",
+      "count": 1
+    },
+    {
       "name": "planning",
       "count": 1
     },
@@ -2261,6 +2524,14 @@
     },
     {
       "name": "presentation",
+      "count": 1
+    },
+    {
+      "name": "private",
+      "count": 1
+    },
+    {
+      "name": "projects",
       "count": 1
     },
     {
@@ -2300,6 +2571,10 @@
       "count": 1
     },
     {
+      "name": "runtime",
+      "count": 1
+    },
+    {
       "name": "sandbox",
       "count": 1
     },
@@ -2313,6 +2588,10 @@
     },
     {
       "name": "sensing",
+      "count": 1
+    },
+    {
+      "name": "session",
       "count": 1
     },
     {
@@ -2333,6 +2612,10 @@
     },
     {
       "name": "specification",
+      "count": 1
+    },
+    {
+      "name": "sprite-editor",
       "count": 1
     },
     {
@@ -2384,15 +2667,15 @@
       "count": 1
     },
     {
+      "name": "tui",
+      "count": 1
+    },
+    {
       "name": "tutor",
       "count": 1
     },
     {
       "name": "typescript",
-      "count": 1
-    },
-    {
-      "name": "ui",
       "count": 1
     },
     {
@@ -2421,6 +2704,10 @@
     },
     {
       "name": "vision",
+      "count": 1
+    },
+    {
+      "name": "visual-builder",
       "count": 1
     },
     {

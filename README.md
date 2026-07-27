@@ -19,9 +19,8 @@
 ## Inbox
 刚 star, 还没认真归类的先扔这里.
 
-| Repo                                                                                                  | One-liner                                                                                              |
-| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| _Empty_ | 已完成当前 Inbox 分类, 等待新 star 自动进入. |
+| Repo                                                                                                           | One-liner                                        |
+| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
 
 
 [Back to top](#starred-repos-atlas)
@@ -45,6 +44,7 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills "repo-id: 1202599845") | 卡兹克(那个AI博主)的Skills. | skills, agents, collection |
 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach "repo-id: 1165277268") | 让你的 Agent 上网, 会用搜索引擎不代表能帮你看b站小红书, 这些需要登陆的东西, 这个Skill就可以解决, 让他学会, 比如用到了OpenCLI, gh来弄github, 油管用yt-dlp等. | skills, web-access, agents |
 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill "repo-id: 1140843380") | 一个帮你在各大社交媒体总结过去一个月 AI 热点的 Skill | research, social-media, trend-summary |
 | [remotion-dev/skills](https://github.com/remotion-dev/skills "repo-id: 1137388347") | Remotion 的 skill, 程序写动画 | skills, agents, patterns |
@@ -63,6 +63,8 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [block/buzz](https://github.com/block/buzz "repo-id: 1174789082") | 名字很宏大, 蜂群, 科幻电影里的蜂群, 让agent和你像在一个聊天窗里沟通, 然后工作留痕. | collaboration, agents, communication |
+| [pingdotgg/t3code](https://github.com/pingdotgg/t3code "repo-id: 1153130349") | 一个让你可以在一个UI界面用所有Agent的工具, 比如codex和cc, 还有一些协作功能. | coding-agent, ui, collaboration |
 | [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex "repo-id: 1148052330") | 韩国量化一个哥们开发的 Agent Harness for Codex p.s: 韩国量化男你害我害得很惨, 我上网课你烧我一个亿多token... 别用, 避雷 | codex, harness, workflow |
 | [anthropics/claude-code](https://github.com/anthropics/claude-code "repo-id: 937253475") | 没啥说的, CC 新时代的 Coding Agent | coding-agent, cli, workflow |
 | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode "repo-id: 1130809465") | 面向团队的 Claude Code 多 agent 编排 | claude-code, orchestration, teamwork |
@@ -76,6 +78,9 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite "repo-id: 1212503250") | 给Agent的浏览器, 能保存很多登陆信息. | browser, agents, session |
+| [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic "repo-id: 1225753223") | 想取代Webflow, Framer的开源Agent CMS. | cms, visual-builder, agent |
+| [OtterMind/Chat2DB](https://github.com/OtterMind/Chat2DB "repo-id: 656227652") | 数据库可视化工具, 特点是为Agent做了优化. | database, gui, ai |
 | [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api "repo-id: 1118601518") | 开源的中转站工具, 应该是把AI订阅会员的token转成api卖. | api-gateway, subscription, relay |
 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp "repo-id: 1166102148") | 一个类似于Codegraph的项目, 把你的仓库变成知识图谱给AI, 优势是性能非常好, 特别快, 而且包装成mcp很不错. | codegraph, knowledge-graph, mcp |
 | [Chozzc/Lujie-Careerkit](https://github.com/Chozzc/Lujie-Careerkit "repo-id: 1284736292") | 录阶, 国产ai开源求职工具, 主要功能是维护简历, 录入简历等信息后可以为某个岗位特化简历, 跟踪投递状态, 其他ai面试什么的, 我不看好. | career, resume, ai |
@@ -102,6 +107,9 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat "repo-id: 1013830656") | 本地聊天工具, 依赖于蓝牙, 主打安全私密. | bluetooth, mesh, private |
+| [yorukot/superfile](https://github.com/yorukot/superfile "repo-id: 774468912") | 一个很漂亮的TUI文件管理器. | tui, file-manager, terminal |
+| [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit "repo-id: 1158588224") | 检测你这个设备能跑什么本地模型的工具. | local-models, hardware, cli |
 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut "repo-id: 1006414368") | 开源剪辑软件, 目标是替代剪映. | video-editor, desktop, open-source |
 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss "repo-id: 106017343") | 一种快速写CSS的几乎是前端开发标配的框架, 可以大幅减少你写的CSS代码, 有这个可以少写很多. | css, frontend, utility-first |
 | [lightpanda-io/browser](https://github.com/lightpanda-io/browser "repo-id: 598667202") | 给 AI 或者 CLI 用的无头轻量浏览器 | headless-browser, automation, cli |
@@ -128,6 +136,7 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [nodejs/node](https://github.com/nodejs/node "repo-id: 27193779") | 大名鼎鼎的Nodejs, 让js可以不在浏览器里跑. | runtime, javascript, infrastructure |
 | [apple/container](https://github.com/apple/container "repo-id: 993475914") | 苹果自己给 Mac 做的轻量 Linux 运行开源工具, 可以快速启动互相隔离的小型 Linux 环境, 用来运行原本面向 Linux 服务器的软件, 可以替代一部分 Docker的工作. | containers, virtualization, apple-silicon |
 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk "repo-id: 299354207") | 最好用的远程方案, 可以自建服务器 | remote-desktop, self-hosted, ops |
 | [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang "repo-id: 29219243") | 科学上网资料和工具集合. | proxy, network, censorship |
@@ -166,6 +175,7 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [aseprite/aseprite](https://github.com/aseprite/aseprite "repo-id: 23129458") | 大名鼎鼎的aseprite, 做像素精灵图必备工具. | pixel-art, sprite-editor, gamedev |
 | [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd "repo-id: 471226425") | 终末地 MA | game-tools, automation, arknights |
 | [bocai-bca/chat_bubble_simulator](https://github.com/bocai-bca/chat_bubble_simulator "repo-id: 877421626") | 用 Godot4 模拟聊天气泡视觉效果 | godot, ui-simulation, moviemaker |
 | [godotengine/godot](https://github.com/godotengine/godot "repo-id: 15634981") | Godot 游戏引擎, 开源游戏开发绕不开的一座大山. | game-engine, godot, gamedev |
@@ -176,6 +186,8 @@
 
 | Repo | One-liner | Tags |
 |---|---|---|
+| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book "repo-id: 1053118194") | 李博杰的开源书AI Agent的仓库. | agent, book, engineering |
+| [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer "repo-id: 104337773") | 收集了一些中国独立开发者分享大家正在做什么, 不知道上榜标准是什么, 星也有点莫名其妙. | indie-developer, projects, directory |
 | [iptv-org/awesome-iptv](https://github.com/iptv-org/awesome-iptv "repo-id: 208640453") | IPTV 相关资源导航, 收集各平台播放器, 频道数据源, 节目表和开发工具. | iptv, awesome-list, media |
 | [itcoffee66/githubweekly](https://github.com/itcoffee66/githubweekly "repo-id: 864376387") | IT 咖啡馆的GitHub 一周热点汇总, 每周分享 5 个热门项目, B 站, YouTube 发布视频版本. | github, weekly, curation |
 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome "repo-id: 21737465") | Awesome 列表总入口 | awesome-list, index, resources |
